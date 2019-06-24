@@ -1,0 +1,84 @@
+---
+layout: page
+title: 
+markers:
+- key: "Home"
+  data: "life_travel"
+  color: "green"
+- key: "Conference"
+  data: "conference_travel"
+  color: "red"
+- key: "Internship"
+  data: "internship_travel"
+  color: "blue"
+- key: "Personal travel"
+  data: "personal_travel"
+  color: "yellow"
+- key: "Family vacation"
+  data: "family_travel"
+  color: "teal"
+- key: "School travel"
+  data: "school_travel"
+  color: "purple"
+---
+<div class="col-xs-12">
+  <div id="map" style="display: block; width: 100%; height: 600px">
+    <div class='map-overlay' id='legend' style="height: 130px"></div>  
+  </div>
+</div>
+<script type="text/javascript" src="map_helpers.js"></script>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiYmxhY2tiZWx0ODEyIiwiYSI6ImNqaWF1dDBzbTFiYnozcXBhN2x1OTFxN2UifQ.FAd9dkTjTuoKuK0mQTnUiA';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/light-v9',
+    zoom: 1,
+    minZoom: 1
+  });
+
+  // Get the layer data split up by category
+  var layers = {};
+  var layerColors = {};
+  {% for category in page.markers %}
+    // Add the trips
+    layers["{{ category.key }}"] = [];
+    {% for trip in site.data[category.data] %}
+      layers = addMapPoint(layers, 
+        "{{ trip.city }}", 
+        "{{ trip.lat }}", "{{ trip.lng }}", 
+        "{{ trip.reason }}", "{{ trip.year }}", 
+        "{{ category.key }}");
+    {% endfor %}
+
+    // Save the layer color
+    layerColors["{{ category.key }}"] = "{{ category.color }}";
+  {% endfor %}
+
+  map.on('load', function() {
+    for (key in layers) {
+      var color = layerColors[key];
+
+      // Add data to map
+      var geojson = {"type": "FeatureCollection",
+                     "features": layers[key]};
+      map.addSource(key, {
+        "type": "geojson",
+        "data": geojson
+      });
+      addPoints(map, color, key);
+
+      // Add legend info
+      var item = document.createElement('div');
+      var legendkey = document.createElement('span');
+      legendkey.className = 'legend-key';
+      legendkey.style.backgroundColor = color;
+
+      var legendvalue = document.createElement('span');
+      legendvalue.innerHTML = key;
+      item.appendChild(legendkey);
+      item.appendChild(legendvalue);
+      legend.appendChild(item);
+    }
+  })
+  
+</script>

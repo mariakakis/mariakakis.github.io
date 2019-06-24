@@ -1,0 +1,72 @@
+---
+layout: default
+
+---
+{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+
+<div class="row">
+  <div class="col-md-6">
+    <h1 style="position:relative;margin-top:-5px">Alex Mariakakis</h1>
+    <ul class="bxslider">
+      <!-- note: imgs can have links around them -->
+      <li><img src="{{site.base_url}}/images/slider/biliscreen_glasses.jpg" title=""/></li>
+      <li><img src="{{site.base_url}}/images/slider/boards_demo.png" title=""/></li>
+      <li><img src="{{site.base_url}}/images/slider/lab_discussion.jpg" title=""/></li>
+      <li><img src="{{site.base_url}}/images/slider/shwetak_discussion.jpg" title=""/></li>
+    </ul>
+  </div>
+  <div class="col-md-6 news">
+    <h2>News</h2>
+    <ul>
+    {% for news in sorted_news limit:5 %}
+      <li><div class="date">{{ news.date | date: '%B %d, %Y' }}:</div>
+        <div class="blurb">
+          {% if news.url == nil %}
+          {{ news.blurb }}
+          {% else %}
+          <a href="{{ news.url }}">{{ news.blurb }}</a>
+          {% endif %}
+          </div></li>
+    {% endfor %}
+    </ul>
+    <a href="{{ site.base_url }}/news/">(More news...)</a>
+    <br/><br/>
+
+    <!-- <h2>Schedule a Meeting</h2>
+    <a href="https://doodle.com/alex.mariakakis">MeetMe link</a>
+    <br/><br/> -->
+
+    <h2>Contact Info</h2>
+    <b>Email:</b> {{ site.email }}
+  </div>
+</div>
+<br/>
+<div class="row">
+  <div class="col-xs-12">
+    <p><h2 style="position:relative;margin-top:-10px">I am on the <a href="{{ site.baseurl }}/jobpacket">job market</a> this year (Fall 2018-Spring 2019)!</h2></p>
+
+    <p>My dissertation work focuses on the creation of mobile apps that use built-in sensors to address diagnostic health and public safety.
+
+    I am a sixth year PhD student studying <a href="http://www.cs.washington.edu/">Computer Science and Engineering</a> at the University of Washington.
+
+    I am advised by <a href="https://homes.cs.washington.edu/~shwetak/">Shwetak Patel</a> in the <a href="https://ubicomplab.cs.washington.edu/">UbiComp</a> Lab and <a href="http://faculty.washington.edu/wobbrock/">Jacob O. Wobbrock</a> in the <a href="http://depts.washington.edu/madlab/">MAD</a> Lab.
+
+    I completed my undergraduate studies at Duke University with a double major in <a href="http://ece.duke.edu/">Electrical Engineering</a> and <a href="http://www.cs.duke.edu/">Computer Science</a>.
+
+    Through the <a href="http://pratt.duke.edu/undergrad/students/research-independent-study/research-fellows">Pratt Fellows</a> program, I had the opportunity to research in the <a href="http://synrg.csl.illinois.edu/">SyNRG</a> Lab led by <a href="http://croy.web.engr.illinois.edu/">Romit Roy Choudhury</a>.</p>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+
+  $('.bxslider').bxSlider({
+    adaptiveHeight: false,
+    speed: 500,
+    captions: true,
+    auto: true,
+    pause: 5000,
+    autoControls: true
+    });
+});
+</script>

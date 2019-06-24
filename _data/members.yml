@@ -1,0 +1,36 @@
+- id: mariakakis
+  name: Alex Mariakakis
+  email: atm15@cs.washington.edu
+  website: http://atm15.github.io
+
+# Faculty
+- id: patel
+  name: Shwetak Patel
+  email: shwetak@cs.washington.edu
+  website: https://homes.cs.washington.edu/~shwetak/
+
+- id: wobbrock
+  name: Jacob O. Wobbrock
+  email: wobbrock@uw.edu
+  website: http://faculty.washington.edu/wobbrock/
+
+# Grad Students
+- id: li
+  name: Hanchuan Li
+  email: hanchuan@cs.washington.edu
+  website: https://www.hanchuanli.com/
+
+- id: wang
+  name: Edward Wang
+  email: ejaywang@uw.edu
+  website: http://www.ejaywang.com
+
+- id: whitmire
+  name: Eric Whitmire
+  email: emwhit@cs.washington.edu
+  website: http://www.ericwhitmire.com
+
+- id: goel
+  name: Mayank Goel
+  email: mayankgoel@cmu.edu
+  website: http://www.mayankgoel.com

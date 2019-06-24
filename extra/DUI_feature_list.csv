@@ -1,0 +1,53 @@
+Task,Feature Name,Description,Stats Over Trials,
+Balancing+Heart Rate,Percentage of shifts,The fraction of beats that were not detected through the camera over the total number of expected beats assuming the user had a periodic heart rate,Mean,
+Balancing+Heart Rate,Heart rate amplitude,The amplitude of the color variation in the red channel of the camera,Mean,Std
+Balancing+Heart Rate,Steadiness,The standard deviation of the accelerometer in the z-direction in m/s^2,Mean,Std
+Balancing+Heart Rate,Heart rate,The estimated heart rate through the camera in beats/min,Mean,
+Balancing+Heart Rate,Heart rate variation,The variation in the heart rate through the camera in beats/min,Mean,
+Choice Reaction,Accuracy,The fraction of times the user selected the correct square when a square changed colors,Accuracy,
+Choice Reaction,Finger lift time,"The time it took for the user to lift their finger in response to the ""finger lift"" stimulus in seconds",Mean log,Std log
+Choice Reaction,Touch down time,"The time it took for the user to press their finger in response to the ""touch down"" stimulus in seconds",Mean log,Std log
+Simple Reaction,Finger lift time,"The time it took for the user to lift their finger in response to the ""finger lift"" stimulus in seconds",Mean log,Std log
+Simple Reaction,Touch down time,"The time it took for the user to press their finger in response to the ""touch down"" stimulus in seconds",Mean log,Std log
+Swiping,Min segment speed,The minimum segment swiping speed in pixels/s from one digit to another,Mean,Std
+Swiping,Max segment speed,The maximum segment swiping speed in pixels/s from one digit to another,Mean,Std
+Swiping,Mean segment speed,The mean segment swiping speed in pixels/s from one digit to another,Mean,Std
+Swiping,Min segment accel,The minimum segment swiping acceleration in pixels/s^2 from one digit to another,Mean,Std
+Swiping,Max segment accel,The maximum segment swiping acceleration in pixels/s^2 from one digit to another,Mean,Std
+Swiping,Mean segment accel,The mean segment swiping acceleration in pixels/s^2 from one digit to another,Mean,Std
+Swiping,Min segment jerk,The minimum segment swiping jerk in pixels/s^3 from one digit to another,Mean,Std
+Swiping,Mean segment jerk,The maximum segment swiping jerk in pixels/s^3 from one digit to another,Mean,Std
+Swiping,Max segment jerk,The mean segment swiping jerk in pixels/s^3 from one digit to another,Mean,Std
+Swiping,Elastic matching distance,The distance between the lines that connect the digits and the user's swiping trajectory as specified by [2],Mean,Std
+Swiping,Proportional shape matching distance,The distance between the lines that connect the digits and the user's swiping trajectory as specified by [3],Mean,Std
+Swiping,Movement variability,The standard deviation of the orthogonal distance between user's swiping trajectory and the straight line that connects the digits in pixels [1],Mean,Std
+Swiping,Movement direction change,The number of times the user changed between going to the left and to the right of the targets [1],Mean,Std
+Swiping,Task axis crossing,The number of times the user crossed the straight line between two digits [1],Mean,Std
+Swiping,Orthogonal direction change,The number of times the user changed between going towards and away from the targets [1],Mean,Std
+Swiping,Throughput,The ratio between the index of difficulty and the movement time in bits/s [1],Mean,Std
+Swiping,Movement offset,The average of the swiping trajectory's height relative to the straight line that connects the digits in pixels [1],Mean,Std
+Swiping,Movement error,The mean of the orthogonal distance between user's swiping trajectory and the straight line that connects the digits in pixels [1],Mean,Std
+Swiping,Touch radius,The radius of the user's touch as they performed the swipe gesture in pixels [1],Mean,Std
+Typing,Key strokes per second,The number of keys the user typed per second [4],Mean,Std
+Typing,Total error rate,The number of fixes divided by the number of fixes and correct keystrokes [4],Mean,Std
+Typing,Corrected error rate,The number of fixed errors divided by the number of fixes and correct keystrokes [4],Mean,Std
+Typing,Uncorrected error rate,The number of remaining errors divided by the number of fixes and correct keystrokes [4],Mean,Std
+Typing,Minimum string difference,"The minimum number of insertions, deletions, or substitutions to make the entered phrase match the target [4]",Mean,Std
+Typing,Correction efficiency,The number of corrected errors divided by the total number of corrections [4],Mean,Std
+Typing,Utilized bandwidth,The number of correct keystrokes divided by the total number of keystrokes [4],Mean,Std
+Typing,Wasted bandwidth,The number of fixes and mistakes divided by the total number of keystrokes [4],Mean,Std
+Typing,Participant conscientiousness,The number of corrected errors divided by the total number of errors [4],Mean,Std
+Typing,Touch radius before touch,The radius of the user's touch when they first touched the screen in pixels,Mean,Std
+Typing,Touch radius after touch,The radius of the user's touch as they lifted their finger in pixels,Mean,Std
+Typing,Touch radius diff,The difference between the touch radius when the user first touched the screen and the touch radius when they lifted their finger in pixels,Mean,Std
+Typing,Touch acceleration before touch,The accleration that can be attributed to the touching force when the user first touched the screen in m/s^2,Mean,Std
+Typing,Touch acceleration during touch,The acceleration that can be attributed to the touching force when in the middle of a press in m/s^2,Mean,Std
+Typing,Touch acceleration after touch,The accleration that can be attributed to the touching force when the user lifted their finger in m/s^2,Mean,Std
+Typing,Touch duration,The time between when the user first touched the screen and when they lifted their finger in seconds,Mean,Std
+Typing,Touch displacement,The distance between where the user first touched a key and when the user lifted their finger in pixels,Mean,Std
+Typing,Distance from key center during touch,The distance between the center of the selected key and the location where the user touched it in pixels,Mean,Std
+,,,,
+[1],http://dl.acm.org/citation.cfm?id=365028,,,
+[2],http://dl.acm.org/citation.cfm?id=1664979,,,
+[3],http://dl.acm.org/citation.cfm?id=1029640,,,
+[4],http://www.yorku.ca/mack/chi03.html,,,

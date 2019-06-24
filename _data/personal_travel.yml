@@ -1,0 +1,180 @@
+- city: Philadelphia, PA
+  lat: 39.952583
+  lng: -75.165222
+  reason: Tim's Wedding
+  year: 2019
+
+- city: Port Townsend, WA
+  lat: 48.115280
+  lng: -122.754450
+  reason: Spring break
+  year: 2019
+
+- city: Rialto Beach, WA
+  lat: 47.921192
+  lng: -124.638275
+  reason: Spring break
+  year: 2019
+
+- city: Port Angeles, WA
+  lat: 48.118145
+  lng: -123.430740
+  reason: Spring break
+  year: 2019
+
+- city: Koloa, HI
+  lat: 21.8744383
+  lng: -159.4454959
+  reason: Winter break
+  year: 2018
+
+- city: Quinault, WA
+  lat: 47.464149
+  lng: -123.852371
+  reason: Lake trip
+  year: 2018
+
+- city: Puyallup, WA
+  lat: 47.177440
+  lng: -122.292320
+  reason: WA State Fair
+  year: 2018
+
+- city: Bremerton, WA
+  lat: 47.567371
+  lng: -122.632927
+  reason: Blackberry Festival
+  year: 2018
+
+- city: Ahmedabad, India
+  lat: 23.022505
+  lng: 72.571362
+  reason: Friend's wedding
+  year: 2017
+
+- city: Las Vegas, NV
+  lat: 36.169941
+  lng: -115.139830
+  year: 2017
+
+- city: Portland, OR
+  lat: 45.523062
+  lng: -122.676482
+  reason: Bachelor party
+  year: 2018
+
+- city: Wilmington, NC
+  lat: 34.225726
+  lng: -77.944710
+  reason: Alexii and Alex's wedding
+  year: 2016
+
+- city: Raleigh, NC
+  lat: 35.779590
+  lng: -78.638179
+  reason: NC State Fair
+  year: 2015
+
+- city: Vancouver, Canada
+  lat: 49.282729
+  lng: -123.120738
+  year: 2014
+
+- city: Whistler, Canada
+  lat: 50.116320
+  lng: -122.957356
+  year: 2014
+
+- city: Boston, MA
+  lat: 42.360082
+  lng: -71.058880
+  year: 2013
+
+- city: Providence, RI
+  lat: 41.823989
+  lng: -71.412834
+  year: 2013
+
+- city: Washington, DC
+  lat: 38.907192
+  lng: -77.036871
+  year: 2013
+
+- city: Baltimore, MD
+  lat: 39.290385
+  lng: -76.612189
+  reason: Tottenham/Arsenal friendly
+  year: 2012
+
+- city: Greensboro, NC
+  lat: 36.072635
+  lng: -79.791975
+  reason: Duke/Lehigh basketball game
+  year: 2012
+
+- city: New York City, NY
+  lat: 40.712775
+  lng: -74.005973
+  reason: Spring break trip
+  year: 2011
+
+- city: Atlantic City, NJ
+  lat: 39.364283
+  lng: -74.422927
+  year: 2010
+
+- city: Beijing, China
+  lat: 39.904200
+  lng: 116.407396
+  reason: High school field trip
+  year: 2008
+
+- city: Xi'an, China
+  lat: 34.341574
+  lng: 108.939770
+  reason: High school field trip
+  year: 2008
+
+- city: Paris, France
+  lat: 48.856614
+  lng: 2.352222
+  reason: Middle school field trip
+  year: 2003
+
+- city: Mont Saint-Michel, France
+  lat: 48.636063
+  lng: -1.511457
+  reason: Middle school field trip
+  year: 2003
+
+- city: Normandy, France
+  lat: 48.879870
+  lng: 0.171253
+  reason: Middle school field trip
+  year: 2003
+
+# Karate tournaments
+- city: Jacksonville, NC
+  lat: 34.754052
+  lng: -77.430241
+  reason: Karate tournament
+
+- city: Bassett, VA
+  lat: 36.759304
+  lng: -79.990319
+  reason: Karate tournament
+
+- city: Danville, VA
+  lat: 36.585972
+  lng: -79.395023
+  reason: Karate tournament
+
+- city: Petersburg, VA
+  lat: 37.227928
+  lng: -77.401927
+  reason: Karate tournament
+
+- city: Knightdale, NC
+  lat: 35.787652
+  lng: -78.480556
+  reason: Karate tournament

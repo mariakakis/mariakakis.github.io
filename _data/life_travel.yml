@@ -1,0 +1,17 @@
+- city: Seattle, WA
+  lat: 47.606209
+  lng: -122.332071
+  reason: Grad at UW
+  year: 2017
+
+- city: Durham, NC
+  lat: 35.994033
+  lng: -78.898619
+  reason: Undergrad at Duke
+  year: 2017
+
+- city: Chapel Hill, NC
+  lat: 35.913200
+  lng: -79.055845
+  reason: Hometown
+  year: 2017

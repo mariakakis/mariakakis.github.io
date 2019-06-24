@@ -1,0 +1,23 @@
+---
+layout: page
+title: 
+redirect_from:
+- /courses/
+- /wiki/courses/
+---
+
+{% assign sorted_courses = site.teaching | sort: 'title' %}
+
+{% for course in sorted_courses %}
+
+<h2><a href="{{ course.website }}" target="_blank">{{ course.title }}</a></h2>
+<p><b>Offerings: 
+{% for offering in course.offerings %}
+{{ offering }}
+{% if forloop.last %}{% else %}, {% endif %}
+{% endfor %}
+</b></p>
+<p>{{ course.summary }}</p>
+
+{% endfor %}
+

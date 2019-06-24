@@ -1,0 +1,77 @@
+- city: Singapore
+  lat: 1.352083
+  lng: 103.819839
+  reason: UbiComp 2018
+  year: 2018
+
+- city: Watsonville, CA
+  lat: 36.872279
+  lng: -121.819340
+  reason: HCIC 2018
+  year: 2018
+
+- city: Montreal, Canada
+  lat: 45.508838
+  lng: -73.5555502
+  reason: CHI 2018
+  year: 2018
+
+- city: Maui, HI
+  lat: 20.798363
+  lng: -156.331925
+  reason: UbiComp 2017
+  year: 2017
+
+- city: Heidelberg, Germany
+  lat: 49.398752
+  lng: 8.672434
+  reason: UbiComp 2016
+  year: 2016
+
+- city: Frankfurt, Germany
+  lat: 50.110922
+  lng: 8.682127
+  reason: Pre-conference vacation
+  year: 2016
+
+- city: Orlando, FL
+  lat: 28.538335
+  lng: -81.379236
+  reason: EMBC 2016
+  year: 2016
+
+- city: Charlotte, NC
+  lat: 35.227087
+  lng: -80.843127
+  reason: UIST 2016
+  year: 2016
+
+- city: Seoul, South Korea
+  lat: 37.566535
+  lng: 126.977969
+  reason: CHI 2015
+  year: 2015
+
+- city: Bretton Woods, NH
+  lat: 44.258120
+  lng: -71.441189
+  reason: MobiSys 2014
+  year: 2014
+
+- city: Seattle, WA
+  lat: 47.606209
+  lng: -122.332071
+  reason: UbiComp 2014
+  year: 2014
+
+- city: Low Wood Bay, UK
+  lat: 54.410325
+  lng: -2.947881
+  reason: MobiSys 2012
+  year: 2012
+
+- city: London, UK
+  lat: 51.507351
+  lng: -0.127758
+  reason: Pre-conference vacation
+  year: 2012

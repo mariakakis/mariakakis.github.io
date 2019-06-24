@@ -1,0 +1,23 @@
+- city: Redmond, WA
+  lat: 47.673988
+  lng: -122.121512
+  reason: Microsoft Research
+  year: 2014
+
+- city: San Jose, CA
+  lat: 37.338208
+  lng: -121.886329
+  reason: Samsung Research
+  year: 2014
+
+- city: Palo Alto, CA
+  lat: 37.441883
+  lng: -122.143019
+  reason: HP Labs and FXPAL
+  year: 2015
+
+- city: Coopersburg, PA
+  lat: 40.511488
+  lng: -75.390458
+  reason: Lutron
+  year: 2010
