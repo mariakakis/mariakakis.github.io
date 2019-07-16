@@ -1,3 +1,9 @@
+- city: Bethesda, MD
+  lat: 38.984653
+  lng: -77.094711
+  reason: NIAID visit
+  year: 2019
+
 - city: San Diego, CA
   lat: 32.715738
   lng: -117.161084
