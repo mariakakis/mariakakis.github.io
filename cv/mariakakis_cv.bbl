@@ -61,7 +61,7 @@
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{To appear in IEEE RFID}
+      \field{journaltitle}{2019 IEEE International Conference on RFID (RFID)}
       \field{title}{IDCam: precise item identification for AR-enhanced object interactions}
       \field{year}{2019}
     \endentry
@@ -1065,36 +1065,35 @@
       \endverb
     \endentry
     \entry{mariakakis2014sailpatent}{patent}{}
-      \name{author}{4}{}{%
-        {{hash=819998400bf176b3b291f46f5d95a657}{%
-           family={Mariakakis},
-           family_i={M\bibinitperiod},
-           given={Alex},
-           given_i={A\bibinitperiod}}}%
+      \name{author}{3}{}{%
         {{hash=17d880782e039d61ffcca69081211d2d}{%
            family={Sen},
            family_i={S\bibinitperiod},
            given={Souvik},
            given_i={S\bibinitperiod}}}%
-        {{hash=8085949b1baa40f53337ff4a74be599b}{%
+        {{hash=819998400bf176b3b291f46f5d95a657}{%
+           family={Mariakakis},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ae35ad8a343aecbc92fa80c425e5ce57}{%
            family={Lee},
            family_i={L\bibinitperiod},
-           given={Jeongkeun},
-           given_i={J\bibinitperiod}}}%
-        {{hash=a982331ba2f39bc138874894d310514c}{%
-           family={Kim},
-           family_i={K\bibinitperiod},
-           given={Kyu-Han},
-           given_i={K\bibinithyphendelim H\bibinitperiod}}}%
+           given={Jung-Gun},
+           given_i={J\bibinithyphendelim G\bibinitperiod}}}%
       }
-      \strng{namehash}{f8bc18d3ecc909e2182c88f691f268ad}
-      \strng{fullhash}{e954648c787c4a41d692532cff581b5a}
+      \strng{namehash}{dd856ffb565f3b07abb057979b2b8864}
+      \strng{fullhash}{dd856ffb565f3b07abb057979b2b8864}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{SAIL: Single Access Point-based Indoor Localization}
+      \field{number}{U.S. Patent 9883342B2}
+      \field{title}{Localization Using Access Point}
       \field{year}{2014}
+      \verb{url}
+      \verb https://patents.google.com/patent/US9883342B2
+      \endverb
     \endentry
     \entry{mariakakis2014affiliates}{misc}{}
       \field{sortinit}{2}

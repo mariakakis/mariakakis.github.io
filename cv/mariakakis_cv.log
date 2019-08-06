@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUL 2019 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 AUG 2019 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,7 +625,6 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
 (\end occurred when \ifnum on line 160 was incomplete)
 (\end occurred when \ifnum on line 160 was incomplete)
 (\end occurred when \ifnum on line 160 was incomplete)
-(\end occurred when \ifnum on line 160 was incomplete)
 (\end occurred when \ifnum on line 135 was incomplete)
 (\end occurred when \ifnum on line 135 was incomplete)
 (\end occurred when \ifnum on line 135 was incomplete)
@@ -694,10 +693,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on mariakakis_cv.pdf (6 pages, 135010 bytes).
+Output written on mariakakis_cv.pdf (6 pages, 135835 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
+ 161 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  57 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
