@@ -1,13 +1,13 @@
 - city: Nashville, TN
   lat: 36.174465
   lng: -86.767960
-  reason: Girlfriend's Friend's Wedding
+  reason: Girlfriend's friend's wedding
   year: 2019
 
 - city: Philadelphia, PA
   lat: 39.952583
   lng: -75.165222
-  reason: Tim's Wedding
+  reason: Fraulein and Tim's wedding
   year: 2019
 
 - city: Port Townsend, WA
@@ -55,7 +55,7 @@
 - city: Ahmedabad, India
   lat: 23.022505
   lng: 72.571362
-  reason: Friend's wedding
+  reason: Aesha and Ravi's wedding
   year: 2017
 
 - city: Las Vegas, NV
@@ -115,7 +115,7 @@
 - city: Greensboro, NC
   lat: 36.072635
   lng: -79.791975
-  reason: Duke/Lehigh basketball game
+  reason: Duke/Lehigh basketball game (oops)
   year: 2012
 
 - city: New York City, NY
