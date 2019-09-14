@@ -62,8 +62,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{2019 IEEE International Conference on RFID (RFID)}
-      \field{title}{IDCam: precise item identification for AR-enhanced object interactions}
+      \field{title}{IDCam: Precise Item Identification for AR-Enhanced Object Interactions}
       \field{year}{2019}
+      \verb{doi}
+      \verb 10.1109/RFID.2019.8719279
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/RFID.2019.8719279
+      \endverb
     \endentry
     \entry{mariakakis2019challenges}{article}{}
       \name{author}{4}{}{%
@@ -100,6 +106,62 @@
       \field{journaltitle}{To appear in IEEE Pervasive Computing}
       \field{title}{Challenges in Realizing Smartphone-based Health Sensing}
       \field{year}{2019}
+    \endentry
+    \entry{mcgrath2019mobile}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4fde5fce4aca59f422d73c09eae9bc6e}{%
+           family={McGrath},
+           family_i={M\bibinitperiod},
+           given={Lynn\bibnamedelima B},
+           given_i={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0192807c231ba829c37a9d31e8efd8eb}{%
+           family={Eaton},
+           family_i={E\bibinitperiod},
+           given={Jessica\bibnamedelima C},
+           given_i={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3c226061c9aac15cef9b23261991cb9b}{%
+           family={Law},
+           family_i={L\bibinitperiod},
+           given={Anthony},
+           given_i={A\bibinitperiod}}}%
+        {{hash=819998400bf176b3b291f46f5d95a657}{%
+           family={Mariakakis},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
+           family={Patel},
+           family_i={P\bibinitperiod},
+           given={Shwetak},
+           given_i={S\bibinitperiod}}}%
+        {{hash=899634efea051ef61c3613e28b4febcc}{%
+           family={Levitt},
+           family_i={L\bibinitperiod},
+           given={Michael\bibnamedelima R},
+           given_i={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{80ddd7b9564396086cab90f187529d64}
+      \strng{fullhash}{2cd1d7edc613db1a8b2a725586c9af88}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neurosurgery}
+      \field{number}{Supplement\_1}
+      \field{title}{Mobile Digital Pupillometry for Rapid Triage of Patients With Severe Traumatic Brain Injury}
+      \field{volume}{66}
+      \field{year}{2019}
+      \field{pages}{nyz310\_844}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/neuros/nyz310_844
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/neuros/nyz310_844
+      \endverb
     \endentry
     \entry{mariakakis2019gt}{misc}{}
       \field{sortinit}{2}

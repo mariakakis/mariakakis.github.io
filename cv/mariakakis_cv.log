@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  5 AUG 2019 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 SEP 2019 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,12 +562,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--135
 
  []
 
-[3]
+[3] [4]
 Underfull \hbox (badness 10000) in paragraph at lines 137--140
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
@@ -675,15 +675,20 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 161.
 (\end occurred when \ifnum on line 135 was incomplete)
 (\end occurred when \ifnum on line 135 was incomplete)
 (\end occurred when \ifnum on line 135 was incomplete)
+(\end occurred when \ifnum on line 135 was incomplete)
+(\end occurred when \ifnum on line 135 was incomplete)
+(\end occurred when \ifnum on line 135 was incomplete)
+(\end occurred when \ifnum on line 135 was incomplete)
+(\end occurred when \ifnum on line 135 was incomplete)
 (\end occurred when \ifnum on line 135 was incomplete) 
 Here is how much of TeX's memory you used:
- 12261 strings out of 493014
- 206475 string characters out of 6133351
- 651276 words of memory out of 5000000
- 15633 multiletter control sequences out of 15000+600000
+ 12266 strings out of 493014
+ 206645 string characters out of 6133351
+ 651304 words of memory out of 5000000
+ 15637 multiletter control sequences out of 15000+600000
  8695 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,10n,45p,946b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,10n,45p,946b,1103s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/te
@@ -693,10 +698,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on mariakakis_cv.pdf (6 pages, 135835 bytes).
+Output written on mariakakis_cv.pdf (6 pages, 137658 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 58 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

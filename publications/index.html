@@ -51,9 +51,9 @@ redirect_from:
 
     <p><span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
       <i>{{ pub.conference }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
-      <a href="{{ site.url }}{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="PDF">
+      {% if pub.pdf.size > 0 %}<a href="{{ site.url }}{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="PDF">
         <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> PDF
-      </a>
+      </a> {% endif %}
       {% if pub.appendix.size > 0 %}<a href="{{ pub.appendix }}" class="btn btn-default btn-xs" aria-label="Appendix" target="_blank">
         <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> Appendix
       </a> {% endif %}

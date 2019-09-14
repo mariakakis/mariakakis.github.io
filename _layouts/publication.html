@@ -7,9 +7,9 @@ layout: default
   <span class="author_list">{% include author_list.html authors=page.authors %}</span>
     <section>
     <div class="materials">
-      <a href="{{ site.baseurl }}{{ page.pdf }}" class="btn btn-default btn-xs" aria-label="PDF">
+      {% if page.pdf.size > 0 %}<a href="{{ site.baseurl }}{{ page.pdf }}" class="btn btn-default btn-xs" aria-label="PDF">
         <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> PDF
-      </a>
+      </a> {% endif %}
       {% if page.appendix.size > 0 %}<a href="{{ page.appendix }}" class="btn btn-default btn-xs" aria-label="Appendix" target="_blank">
         <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> Appendix
       </a> {% endif %}
