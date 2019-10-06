@@ -83,29 +83,38 @@
            family_i={W\bibinitperiod},
            given={Edward},
            given_i={E\bibinitperiod}}}%
+        {{hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
+           family={Patel},
+           family_i={P\bibinitperiod},
+           given={Shwetak},
+           given_i={S\bibinitperiod}}}%
         {{hash=4b13c8307f712c1ae851b00c11c1ff97}{%
            family={Goel},
            family_i={G\bibinitperiod},
            given={Mayank},
            given_i={M\bibinitperiod}}}%
-        {{hash=9011c768a8e649075b30ad1d6e7cdc38}{%
-           family={Patel},
-           family_i={P\bibinitperiod},
-           given={Shwetak\bibnamedelima N.},
-           given_i={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
       }
       \strng{namehash}{f8bc18d3ecc909e2182c88f691f268ad}
-      \strng{fullhash}{92cf326b2cb3c680a9b4d78759bbf660}
+      \strng{fullhash}{35ec43d8b171af68c09d78f6ea174af6}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{To appear in IEEE Pervasive Computing}
-      \field{title}{Challenges in Realizing Smartphone-based Health Sensing}
+      \field{issn}{1536-1268}
+      \field{journaltitle}{IEEE Pervasive Computing}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{Challenges in Realizing Smartphone-Based Health Sensing}
+      \field{volume}{18}
       \field{year}{2019}
+      \field{pages}{76\bibrangedash 84}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/MPRV.2019.2907007
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8794692/
+      \endverb
     \endentry
     \entry{mcgrath2019mobile}{article}{}
       \name{author}{6}{}{%

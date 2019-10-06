@@ -25,7 +25,7 @@ bibtex: |
     month = {apr},
     number = {2},
     pages = {76--84},
-    title = {{Challenges in Realizing Smartphone-Based Health Sensing}},
+    title = {Challenges in Realizing Smartphone-Based Health Sensing},
     url = {https://ieeexplore.ieee.org/document/8794692/},
     volume = {18},
     year = {2019}
