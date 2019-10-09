@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber mariakakis_cv"] 1568929438 "mariakakis_cv.bcf" "mariakakis_cv.bbl" "mariakakis_cv" 1570471275
+["biber mariakakis_cv"] 1568929438 "mariakakis_cv.bcf" "mariakakis_cv.bbl" "mariakakis_cv" 1570647306
   "bibfile.bib" 1568929418 13729 0a3c8e69faa30b1ab9295a5439e39a83 ""
-  "mariakakis_cv.bcf" 1570471275 99414 a2cdd85adefccb28839af514cf65be97 ""
+  "mariakakis_cv.bcf" 1570647306 99414 a2cdd85adefccb28839af514cf65be97 ""
   (generated)
   "mariakakis_cv.blg"
   "mariakakis_cv.bbl"
-["pdflatex"] 1570471273 "mariakakis_cv.tex" "mariakakis_cv.pdf" "mariakakis_cv" 1570471275
+["pdflatex"] 1570647304 "mariakakis_cv.tex" "mariakakis_cv.pdf" "mariakakis_cv" 1570647306
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -83,21 +83,21 @@
   "awards.tex" 1561340549 1295 292c5f2c3db03f6e79047cf77b902d1b ""
   "education.tex" 1565066286 547 c743c776466cc81e2e6b19adbc15a2ee ""
   "industry.tex" 1561340549 1139 939545d0ac2bf5dc2350124afb5e4122 ""
-  "mariakakis_cv.aux" 1570471275 7198 dbe1c192a2d15d69adef1b0754df6882 ""
+  "mariakakis_cv.aux" 1570647306 7198 dbe1c192a2d15d69adef1b0754df6882 ""
   "mariakakis_cv.bbl" 1568929444 44782 fbc4e8297d91af032ba153c6f33000d7 "biber mariakakis_cv"
-  "mariakakis_cv.out" 1570471274 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "mariakakis_cv.run.xml" 1570471275 2365 05288101988171ac9646620c9625bb50 ""
+  "mariakakis_cv.out" 1570647305 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "mariakakis_cv.run.xml" 1570647306 2365 05288101988171ac9646620c9625bb50 ""
   "mariakakis_cv.tex" 1561340549 4422 8ebe7ea7fef744dd6744a1b98e516d94 ""
   "mentoring.tex" 1570330268 806 56b7dc3864a7eded90f5a4d80fcb8baa ""
   "press.tex" 1561340549 896 141eaef26a532548f5932b2d999f7602 ""
-  "professional_service.tex" 1570332023 2016 9c9b44366139d9644c2109da867def4c ""
+  "professional_service.tex" 1570647302 1994 6152931f9b35a59e69680320b1f1c060 ""
   "school_service.tex" 1561340549 959 53446c2c3c7778c56c05c0477c4a7778 ""
   "statement.tex" 1570471271 255 5faac092c2a5e203472e030410139aaa ""
   "teaching.tex" 1561340549 1182 b33ea92ae768f1762dfc082da7060750 ""
   (generated)
-  "mariakakis_cv.bcf"
+  "mariakakis_cv.pdf"
+  "mariakakis_cv.run.xml"
   "mariakakis_cv.log"
   "mariakakis_cv.aux"
-  "mariakakis_cv.run.xml"
+  "mariakakis_cv.bcf"
   "mariakakis_cv.out"
-  "mariakakis_cv.pdf"
