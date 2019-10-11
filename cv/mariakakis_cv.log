@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 OCT 2019 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 OCT 2019 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -579,12 +579,12 @@ Overfull \hbox (9.18335pt too wide) in paragraph at lines 150--150
 -ing for Liver and Pan-cre-atic Dis-or-ders\OT1/cmr/m/n/10.95 . mHealth
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 152--155
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 157--160
 
  []
@@ -684,7 +684,7 @@ Here is how much of TeX's memory you used:
  15637 multiletter control sequences out of 15000+600000
  8695 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,10n,45p,946b,1056s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,10n,45p,946b,1110s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/te
@@ -694,7 +694,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on mariakakis_cv.pdf (6 pages, 138318 bytes).
+Output written on mariakakis_cv.pdf (6 pages, 138972 bytes).
 PDF statistics:
  171 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams
