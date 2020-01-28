@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber mariakakis_cv"] 1568929438 "mariakakis_cv.bcf" "mariakakis_cv.bbl" "mariakakis_cv" 1574209143
-  "bibfile.bib" 1568929418 13729 0a3c8e69faa30b1ab9295a5439e39a83 ""
-  "mariakakis_cv.bcf" 1574209143 99414 a2cdd85adefccb28839af514cf65be97 ""
+["biber mariakakis_cv"] 1580184987 "mariakakis_cv.bcf" "mariakakis_cv.bbl" "mariakakis_cv" 1580185210
+  "bibfile.bib" 1580184985 14129 6e7dcb01c6701884a60c769774e50bcd ""
+  "mariakakis_cv.bcf" 1580185210 99414 a2cdd85adefccb28839af514cf65be97 ""
   (generated)
-  "mariakakis_cv.blg"
   "mariakakis_cv.bbl"
-["pdflatex"] 1574209142 "mariakakis_cv.tex" "mariakakis_cv.pdf" "mariakakis_cv" 1574209143
+  "mariakakis_cv.blg"
+["pdflatex"] 1580185209 "mariakakis_cv.tex" "mariakakis_cv.pdf" "mariakakis_cv" 1580185210
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -80,18 +80,18 @@
   "/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1479610085 1888048 f2c5faed5981a516f406b2ccc20bff71 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "awards.tex" 1561340549 1295 292c5f2c3db03f6e79047cf77b902d1b ""
+  "awards.tex" 1574274808 1299 1a1753241cd7e9323739b5a5f7c840d0 ""
   "education.tex" 1573001493 758 8392bba8303d4c6828f8c52f2acfd817 ""
-  "industry.tex" 1570824546 1313 5b96c28ff87232eaedc090e1f5aa51fd ""
-  "mariakakis_cv.aux" 1574209143 7198 dbe1c192a2d15d69adef1b0754df6882 ""
-  "mariakakis_cv.bbl" 1568929444 44782 fbc4e8297d91af032ba153c6f33000d7 "biber mariakakis_cv"
-  "mariakakis_cv.out" 1574209142 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "mariakakis_cv.run.xml" 1574209143 2365 05288101988171ac9646620c9625bb50 ""
-  "mariakakis_cv.tex" 1574209139 4436 742ea33895a3cd9ffc2ace5cca7a9b8f ""
-  "mentoring.tex" 1570330268 806 56b7dc3864a7eded90f5a4d80fcb8baa ""
+  "industry.tex" 1580185208 1315 ad4cdf68c6e9fd04d73b946ff414943b ""
+  "mariakakis_cv.aux" 1580185210 7305 6fe08319dba791084e124a17d127ecc5 ""
+  "mariakakis_cv.bbl" 1580184988 47089 69185d87625f8bc71a128b6b92b5060a "biber mariakakis_cv"
+  "mariakakis_cv.out" 1580185210 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "mariakakis_cv.run.xml" 1580185210 2365 05288101988171ac9646620c9625bb50 ""
+  "mariakakis_cv.tex" 1580185174 4437 38ea1680c31ba4ba1de8edb53ca60777 ""
+  "mentoring.tex" 1580184617 851 1b0c92602bb9b6bf0b74088ac89f8508 ""
   "press.tex" 1561340549 896 141eaef26a532548f5932b2d999f7602 ""
-  "professional_service.tex" 1570647302 1994 6152931f9b35a59e69680320b1f1c060 ""
-  "school_service.tex" 1561340549 959 53446c2c3c7778c56c05c0477c4a7778 ""
+  "professional_service.tex" 1580185100 2180 cfbd70f010ecc1848e649da7afeeba8f ""
+  "school_service.tex" 1574274757 961 cbf0ea11e6bc6702a1c8e99b1155da3d ""
   "statement.tex" 1573001318 501 287574be9a0de2154c420f210b38233b ""
   "teaching.tex" 1561340549 1182 b33ea92ae768f1762dfc082da7060750 ""
   (generated)
@@ -99,5 +99,5 @@
   "mariakakis_cv.bcf"
   "mariakakis_cv.run.xml"
   "mariakakis_cv.aux"
-  "mariakakis_cv.pdf"
   "mariakakis_cv.out"
+  "mariakakis_cv.pdf"

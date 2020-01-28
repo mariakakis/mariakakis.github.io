@@ -19,6 +19,65 @@
 
 \refsection{0}
   \sortlist[entry]{ydnt/global/}
+    \entry{xu2020ear}{inproceedings}{}
+      \name{author}{9}{}{%
+        {{hash=8b58b98b90499008492cf3ae6ba148ac}{%
+           family={Xuhai},
+           family_i={X\bibinitperiod},
+           given={Xu},
+           given_i={X\bibinitperiod}}}%
+        {{hash=df4bac10e30511377d4ebdb5dce191ce}{%
+           family={Shi},
+           family_i={S\bibinitperiod},
+           given={Haitian},
+           given_i={H\bibinitperiod}}}%
+        {{hash=168b6197edb22462b0a82e7022d49b70}{%
+           family={Yi},
+           family_i={Y\bibinitperiod},
+           given={Xin},
+           given_i={X\bibinitperiod}}}%
+        {{hash=82e64e25729d8b6cf96b903863aa1484}{%
+           family={Liu},
+           family_i={L\bibinitperiod},
+           given={Wenjia},
+           given_i={W\bibinitperiod}}}%
+        {{hash=f94bbbdac2095e752f6591e3983d06e1}{%
+           family={Yan},
+           family_i={Y\bibinitperiod},
+           given={Yukang},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=774f22ca755cff908ef4d495e810d194}{%
+           family={Shi},
+           family_i={S\bibinitperiod},
+           given={Yuanchun},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=819998400bf176b3b291f46f5d95a657}{%
+           family={Mariakakis},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=842bbcc9ac08b114577a24aac173b659}{%
+           family={Mankoff},
+           family_i={M\bibinitperiod},
+           given={Jennifer},
+           given_i={J\bibinitperiod}}}%
+        {{hash=34144296094bdbd95537c64aceb332b9}{%
+           family={Dey},
+           family_i={D\bibinitperiod},
+           given={Anind\bibnamedelima K.},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5008214362b676dd158717d7cfcad19}
+      \strng{fullhash}{3cb68c41345246e3c6e78471c087f7fc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{To appear in Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems}
+      \field{series}{CHI '20}
+      \field{title}{EarBuddy: Enabling On-Face Interaction via Wireless Earbuds}
+      \field{year}{2020}
+    \endentry
     \entry{li2019idcam}{article}{}
       \name{author}{6}{}{%
         {{hash=e2e65bc31792929cfaa15cecf7f23965}{%
