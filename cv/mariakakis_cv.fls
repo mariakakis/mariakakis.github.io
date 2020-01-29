@@ -128,10 +128,10 @@ INPUT education.tex
 INPUT education.tex
 INPUT awards.tex
 INPUT awards.tex
+INPUT /usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT professional_service.tex
 INPUT professional_service.tex
 INPUT school_service.tex

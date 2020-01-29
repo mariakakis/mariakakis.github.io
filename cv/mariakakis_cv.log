@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 JAN 2020 20:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2020 09:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,42 +542,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 94.
 
-(./statement.tex) (./education.tex) (./awards.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 110--117
-
- []
-
-[1
+(./statement.tex) (./education.tex) (./awards.tex) [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 111--118
+
+ []
+
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--127
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
  []
 
 
-Overfull \hbox (9.18335pt too wide) in paragraph at lines 132--132
+Overfull \hbox (9.18335pt too wide) in paragraph at lines 133--133
 []\OT1/cmr/m/it/10.95 BiliScreen: Smartphone-based Scle-ral Jaun-dice Mon-i-tor
 -ing for Liver and Pan-cre-atic Dis-or-ders\OT1/cmr/m/n/10.95 . mHealth
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 134--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--142
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 
  []
 
@@ -591,111 +590,111 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
 ) (./industry.tex
 [5]) (./press.tex) (./teaching.tex) (./mentoring.tex [6])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
  [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
 
 (./mariakakis_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `mariakakis_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'mariakakis_cv.run.xml'.
 \openout1 = `mariakakis_cv.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  )
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 142 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete)
-(\end occurred when \ifnum on line 117 was incomplete) 
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 143 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete) 
 Here is how much of TeX's memory you used:
  12271 strings out of 493014
  206771 string characters out of 6133351
- 653332 words of memory out of 5000000
+ 651332 words of memory out of 5000000
  15640 multiletter control sequences out of 15000+600000
  8695 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,10n,45p,946b,1118s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,10n,45p,946b,1112s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/te
@@ -705,7 +704,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on mariakakis_cv.pdf (7 pages, 140176 bytes).
+Output written on mariakakis_cv.pdf (7 pages, 140493 bytes).
 PDF statistics:
  178 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
