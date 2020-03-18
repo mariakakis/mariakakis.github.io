@@ -19,6 +19,70 @@
 
 \refsection{0}
   \sortlist[entry]{ydnt/global/}
+    \entry{park2020supporting}{inproceedings}{}
+      \name{author}{10}{}{%
+        {{hash=ea42517dbbd4f605732646a82aa12306}{%
+           family={Park},
+           family_i={P\bibinitperiod},
+           given={Chunjong},
+           given_i={C\bibinitperiod}}}%
+        {{hash=819998400bf176b3b291f46f5d95a657}{%
+           family={Mariakakis},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
+           family={Patel},
+           family_i={P\bibinitperiod},
+           given={Shwetak},
+           given_i={S\bibinitperiod}}}%
+        {{hash=720a95725367ffdb13e14e6457a11d58}{%
+           family={Yang},
+           family_i={Y\bibinitperiod},
+           given={Jane},
+           given_i={J\bibinitperiod}}}%
+        {{hash=f39d1cd8f98257d3e2ef1fe998708397}{%
+           family={Lassala},
+           family_i={L\bibinitperiod},
+           given={Diego},
+           given_i={D\bibinitperiod}}}%
+        {{hash=31ac00a0bb582c442983cf6abb885bab}{%
+           family={Johnson},
+           family_i={J\bibinitperiod},
+           given={Ari},
+           given_i={A\bibinitperiod}}}%
+        {{hash=8f0e18b491cc1a01051f5db10ba24309}{%
+           family={Wassuna},
+           family_i={W\bibinitperiod},
+           given={Beatrice},
+           given_i={B\bibinitperiod}}}%
+        {{hash=9fe9598ff5d03574075871e9c67a841b}{%
+           family={Fall},
+           family_i={F\bibinitperiod},
+           given={Fatou},
+           given_i={F\bibinitperiod}}}%
+        {{hash=1f9fe24017e32aedc8f0cd413c058616}{%
+           family={Soda\bibnamedelima Gaye},
+           family_i={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Mar\x{fffd}\x{fffd}me},
+           given_i={M\bibinitperiod}}}%
+        {{hash=83b0d97a602ee5303d58b7579dc14886}{%
+           family={Holeman},
+           family_i={H\bibinitperiod},
+           given={Isaac},
+           given_i={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{70e8d46206570c2f642dd77dd966a9e7}
+      \strng{fullhash}{b6de0ea7bc0a0c4134515cff27f2b27d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{To appear in Proceedings of the 2020 International Conference on Information and Communication Technologies and Development}
+      \field{series}{ICTD '20}
+      \field{title}{Supporting Smartphone-Based Image Capture of Rapid Diagnostic Tests in Low-Resource Settings}
+      \field{year}{2020}
+    \endentry
     \entry{xu2020ear}{inproceedings}{}
       \name{author}{9}{}{%
         {{hash=8b58b98b90499008492cf3ae6ba148ac}{%

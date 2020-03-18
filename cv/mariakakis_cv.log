@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2020 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  17 MAR 2020 17:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,7 +589,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
 ) (./industry.tex
-[5]) (./press.tex) (./teaching.tex) (./mentoring.tex [6])
+[5]) (./press.tex) (./teaching.tex [6]) (./mentoring.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
  [7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
@@ -686,12 +686,21 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
 (\end occurred when \ifnum on line 118 was incomplete)
 (\end occurred when \ifnum on line 118 was incomplete)
 (\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
+(\end occurred when \ifnum on line 118 was incomplete)
 (\end occurred when \ifnum on line 118 was incomplete) 
 Here is how much of TeX's memory you used:
- 12271 strings out of 493014
- 206771 string characters out of 6133351
- 651332 words of memory out of 5000000
- 15640 multiletter control sequences out of 15000+600000
+ 12275 strings out of 493014
+ 206927 string characters out of 6133351
+ 651360 words of memory out of 5000000
+ 15643 multiletter control sequences out of 15000+600000
  8695 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,10n,45p,946b,1112s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -704,10 +713,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on mariakakis_cv.pdf (7 pages, 140559 bytes).
+Output written on mariakakis_cv.pdf (7 pages, 141005 bytes).
 PDF statistics:
- 178 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 60 named destinations out of 1000 (max. 500000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

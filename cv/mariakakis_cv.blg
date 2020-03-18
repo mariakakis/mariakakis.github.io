@@ -1,17 +1,18 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
-[1] Config.pm:346> INFO - Logfile is 'mariakakis_cv.blg'
-[82] biber-darwin:290> INFO - === Wed Jan 29, 2020, 09:56:48
-[140] Biber.pm:351> INFO - Reading 'mariakakis_cv.bcf'
-[309] Biber.pm:773> INFO - Using all citekeys in bib section 0
-[323] Biber.pm:3493> INFO - Processing section 0
-[353] Biber.pm:3657> INFO - Looking for bibtex format file 'bibfile.bib' for section 0
-[360] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[363] bibtex.pm:1048> INFO - Found BibTeX data source 'bibfile.bib'
-[367] Utils.pm:149> WARN - Duplicate entry key: 'mariakakis2018affiliates' in file 'bibfile.bib', skipping ...
-[515] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[515] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[515] Biber.pm:3306> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[515] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[571] bbl.pm:526> INFO - Writing 'mariakakis_cv.bbl' with encoding 'ascii'
-[579] bbl.pm:619> INFO - Output to mariakakis_cv.bbl
-[580] Biber.pm:108> INFO - WARNINGS: 1
+[0] Config.pm:346> INFO - Logfile is 'mariakakis_cv.blg'
+[55] biber-darwin:290> INFO - === Tue Mar 17, 2020, 17:24:09
+[74] Biber.pm:351> INFO - Reading 'mariakakis_cv.bcf'
+[184] Biber.pm:773> INFO - Using all citekeys in bib section 0
+[196] Biber.pm:3493> INFO - Processing section 0
+[212] Biber.pm:3657> INFO - Looking for bibtex format file 'bibfile.bib' for section 0
+[217] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[222] bibtex.pm:1048> INFO - Found BibTeX data source 'bibfile.bib'
+[225] Utils.pm:149> WARN - Duplicate entry key: 'mariakakis2018affiliates' in file 'bibfile.bib', skipping ...
+[360] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[360] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[360] Biber.pm:3306> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[360] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[420] bbl.pm:526> INFO - Writing 'mariakakis_cv.bbl' with encoding 'ascii'
+[423] Utils.pm:149> WARN - The entry 'park2020supporting' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[433] bbl.pm:619> INFO - Output to mariakakis_cv.bbl
+[433] Biber.pm:108> INFO - WARNINGS: 2
