@@ -1,3 +1,11 @@
+- date: 2020-05-26
+  blurb: Signed offer letter to join University of Toronto in Fall 2020
+  url: https://web.cs.toronto.edu/
+
+- date: 2020-04-10
+  blurb: Helped open-source RDTScan library for automatic RDT interpretation
+  url: https://github.com/cjpark87/rdt-scan
+
 - date: 2020-03-31
   blurb: Helping produce 3D-printed PPE
   url: https://www.washington.edu/news/2020/04/13/uws-3d-printed-covid-19-face-shields-from-innovation-to-delivery/
