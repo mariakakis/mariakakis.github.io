@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber mariakakis_cv"] 1593552518 "mariakakis_cv.bcf" "mariakakis_cv.bbl" "mariakakis_cv" 1593552704
+["biber mariakakis_cv"] 1593552518 "mariakakis_cv.bcf" "mariakakis_cv.bbl" "mariakakis_cv" 1593554676
   "bibfile.bib" 1593552406 15790 d9c2ba249d8ae9bf3c8b712e667c1b28 ""
   "mariakakis_cv.bcf" 1593552704 99414 a2cdd85adefccb28839af514cf65be97 ""
   (generated)
   "mariakakis_cv.bbl"
   "mariakakis_cv.blg"
-["pdflatex"] 1593552703 "mariakakis_cv.tex" "mariakakis_cv.pdf" "mariakakis_cv" 1593552704
+["pdflatex"] 1593552703 "mariakakis_cv.tex" "mariakakis_cv.pdf" "mariakakis_cv" 1593554676
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -95,9 +95,9 @@
   "statement.tex" 1580320207 505 83869c7d52ead5d62e951a8e1dc726dd ""
   "teaching.tex" 1561340549 1182 b33ea92ae768f1762dfc082da7060750 ""
   (generated)
-  "mariakakis_cv.run.xml"
-  "mariakakis_cv.pdf"
   "mariakakis_cv.out"
-  "mariakakis_cv.log"
   "mariakakis_cv.bcf"
+  "mariakakis_cv.run.xml"
   "mariakakis_cv.aux"
+  "mariakakis_cv.pdf"
+  "mariakakis_cv.log"
