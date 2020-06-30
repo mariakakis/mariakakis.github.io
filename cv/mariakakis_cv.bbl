@@ -19,8 +19,85 @@
 
 \refsection{0}
   \sortlist[entry]{ydnt/global/}
-    \entry{park2020supporting}{inproceedings}{}
+    \entry{mariakakis2020ecopatches}{inproceedings}{}
       \name{author}{10}{}{%
+        {{hash=819998400bf176b3b291f46f5d95a657}{%
+           family={Mariakakis},
+           family_i={M\bibinitperiod},
+           given={Alex},
+           given_i={A\bibinitperiod}}}%
+        {{hash=e2217f6e7b8d146110b79b3bbd1dd4b7}{%
+           family={Chen},
+           family_i={C\bibinitperiod},
+           given={Sifang},
+           given_i={S\bibinitperiod}}}%
+        {{hash=71faa0807c26e3f2c6ffe18b79e4bd53}{%
+           family={Nguyen},
+           family_i={N\bibinitperiod},
+           given={Bichlien\bibnamedelima H.},
+           given_i={B\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=05d9bc1ec5c70a3d971c70c776a04441}{%
+           family={Bray},
+           family_i={B\bibinitperiod},
+           given={Kirsten},
+           given_i={K\bibinitperiod}}}%
+        {{hash=6842c904983f3e2058121cef82cea63b}{%
+           family={Blank},
+           family_i={B\bibinitperiod},
+           given={Molly},
+           given_i={M\bibinitperiod}}}%
+        {{hash=47e0125b309fc3e3f43ddf54d80615dd}{%
+           family={Lester},
+           family_i={L\bibinitperiod},
+           given={Jonathan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=3597a63fc7e66e95df33113e7c197945}{%
+           family={Ryan},
+           family_i={R\bibinitperiod},
+           given={Lauren},
+           given_i={L\bibinitperiod}}}%
+        {{hash=56b3c34514c51725334a185edb135029}{%
+           family={Johns},
+           family_i={J\bibinitperiod},
+           given={Paul},
+           given_i={P\bibinitperiod}}}%
+        {{hash=bd9b74431719dfec8fd23f663f79e8e8}{%
+           family={Ramos},
+           family_i={R\bibinitperiod},
+           given={Gonzalo},
+           given_i={G\bibinitperiod}}}%
+        {{hash=55215f88c1145a34d6d303b83db49e14}{%
+           family={Roseway},
+           family_i={R\bibinitperiod},
+           given={Asta},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Eindhoven, Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{f8bc18d3ecc909e2182c88f691f268ad}
+      \strng{fullhash}{f1746bde650967dff64009e0fecd49c1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2020 International Conference on Designing Interactive Systems}
+      \field{series}{DIS '20}
+      \field{title}{EcoPatches: Maker-Friendly Chemical-Based UV Sensing}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3357236.3395424
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3357236.3395424
+      \endverb
+      \keyw{Chemical sensing; inkjet printing; environmental sensing; mobile computing; ultraviolet radiation}
+    \endentry
+    \entry{park2020supporting}{inproceedings}{}
+      \name{author}{14}{}{%
         {{hash=ea42517dbbd4f605732646a82aa12306}{%
            family={Park},
            family_i={P\bibinitperiod},
@@ -31,11 +108,6 @@
            family_i={M\bibinitperiod},
            given={Alex},
            given_i={A\bibinitperiod}}}%
-        {{hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
-           family={Patel},
-           family_i={P\bibinitperiod},
-           given={Shwetak},
-           given_i={S\bibinitperiod}}}%
         {{hash=720a95725367ffdb13e14e6457a11d58}{%
            family={Yang},
            family_i={Y\bibinitperiod},
@@ -46,13 +118,23 @@
            family_i={L\bibinitperiod},
            given={Diego},
            given_i={D\bibinitperiod}}}%
-        {{hash=31ac00a0bb582c442983cf6abb885bab}{%
-           family={Johnson},
-           family_i={J\bibinitperiod},
-           given={Ari},
-           given_i={A\bibinitperiod}}}%
-        {{hash=8f0e18b491cc1a01051f5db10ba24309}{%
-           family={Wassuna},
+        {{hash=27e47915613c63550e48989372d4ae75}{%
+           family={Djiguiba},
+           family_i={D\bibinitperiod},
+           given={Yasamba},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=d8c38b5b0c6b1ccdfad2245a0f34ec4e}{%
+           family={Keita},
+           family_i={K\bibinitperiod},
+           given={Youssouf},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=09f3eb6a518e4066e9fec7a656fc17e5}{%
+           family={Diarra},
+           family_i={D\bibinitperiod},
+           given={Hawa},
+           given_i={H\bibinitperiod}}}%
+        {{hash=a9c3cad2bdb76717b4224065945e3d38}{%
+           family={Wasunna},
            family_i={W\bibinitperiod},
            given={Beatrice},
            given_i={B\bibinitperiod}}}%
@@ -61,34 +143,63 @@
            family_i={F\bibinitperiod},
            given={Fatou},
            given_i={F\bibinitperiod}}}%
-        {{hash=1f9fe24017e32aedc8f0cd413c058616}{%
-           family={Soda\bibnamedelima Gaye},
-           family_i={S\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={Mar\x{fffd}\x{fffd}me},
-           given_i={M\bibinitperiod}}}%
+        {{hash=10dc3d3ca30119146821ba80a93fadae}{%
+           family={Gaye},
+           family_i={G\bibinitperiod},
+           given={Mar\`{e}me\bibnamedelima Soda},
+           given_i={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=a0368b6d7f6e22c8f1f65dd4c80a76d6}{%
+           family={Ndiaye},
+           family_i={N\bibinitperiod},
+           given={Bara},
+           given_i={B\bibinitperiod}}}%
+        {{hash=31ac00a0bb582c442983cf6abb885bab}{%
+           family={Johnson},
+           family_i={J\bibinitperiod},
+           given={Ari},
+           given_i={A\bibinitperiod}}}%
         {{hash=83b0d97a602ee5303d58b7579dc14886}{%
            family={Holeman},
            family_i={H\bibinitperiod},
            given={Isaac},
            given_i={I\bibinitperiod}}}%
+        {{hash=ebe0c564e6a6dc116ed7f2ddc74788e4}{%
+           family={Patel},
+           family_i={P\bibinitperiod},
+           given={Shwetak},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Guayaquil, Ecuador}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
       }
       \strng{namehash}{70e8d46206570c2f642dd77dd966a9e7}
-      \strng{fullhash}{b6de0ea7bc0a0c4134515cff27f2b27d}
+      \strng{fullhash}{897feea7b55407c88fb39712d4b437eb}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{To appear in Proceedings of the 2020 International Conference on Information and Communication Technologies and Development}
-      \field{series}{ICTD '20}
+      \field{booktitle}{Proceedings of the 2020 International Conference on Information and Communication Technologies and Development}
+      \field{isbn}{9781450387620}
+      \field{series}{ICTD2020}
       \field{title}{Supporting Smartphone-Based Image Capture of Rapid Diagnostic Tests in Low-Resource Settings}
       \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3392561.3394630
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3392561.3394630
+      \endverb
+      \keyw{image processing,malaria,Rapid diagnostic tests (RDTs),image quality control,mobile health}
     \endentry
-    \entry{xu2020ear}{inproceedings}{}
+    \entry{xu2020earbuddy}{inproceedings}{}
       \name{author}{9}{}{%
-        {{hash=8b58b98b90499008492cf3ae6ba148ac}{%
-           family={Xuhai},
+        {{hash=5be6d0ab3191e4f23b85299fcf0d4e5e}{%
+           family={Xu},
            family_i={X\bibinitperiod},
-           given={Xu},
+           given={Xuhai},
            given_i={X\bibinitperiod}}}%
         {{hash=df4bac10e30511377d4ebdb5dce191ce}{%
            family={Shi},
@@ -125,22 +236,29 @@
            family_i={M\bibinitperiod},
            given={Jennifer},
            given_i={J\bibinitperiod}}}%
-        {{hash=34144296094bdbd95537c64aceb332b9}{%
+        {{hash=c69ac2a46107189924f67cfa335924ae}{%
            family={Dey},
            family_i={D\bibinitperiod},
-           given={Anind\bibnamedelima K.},
+           given={Anind\bibnamedelima K},
            given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \strng{namehash}{b5008214362b676dd158717d7cfcad19}
-      \strng{fullhash}{3cb68c41345246e3c6e78471c087f7fc}
+      \strng{namehash}{83d9d45d3ad197ead3103ea49eec2c1d}
+      \strng{fullhash}{e2aa2b1740de269379c34f068cc96f14}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{To appear in Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems}
-      \field{series}{CHI '20}
+      \field{booktitle}{Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems}
       \field{title}{EarBuddy: Enabling On-Face Interaction via Wireless Earbuds}
       \field{year}{2020}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1145/3313831.3376836
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3313831.3376836
+      \endverb
     \endentry
     \entry{li2019idcam}{article}{}
       \name{author}{6}{}{%

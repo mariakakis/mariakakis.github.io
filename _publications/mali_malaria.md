@@ -11,8 +11,9 @@ authors:
 - Fatou Fall
 - Marème Soda Gaye
 - Isaac Holeman
-conference: ICTD '20
-date: 2020-03-15
+conference: International Conference on Information and Communication Technologies and Development (ICTD), 2020
+date: 2020-06-17
+pdf: /pdfs/mali_malaria.pdf
 image: /images/pubs/mali_malaria.jpg
 thumbnail: /images/pubs/mali_malaria_thumb.jpg
 caption: RDTScan helps community health workers capture high-quality images of malaria rapid diagnostic tests (RDTs) collected in real-world environments without the need of extra hardware.
@@ -23,18 +24,19 @@ citation: |
     Chunjong Park, Alex Mariakakis, Shwetak Patel, Jane Yang, Diego Lassala, Ari Johnson, Beatrice Wassuna, Fatou Fall, Marème Soda Gaye, Isaac Holeman. Supporting Smartphone-Based Image Capture of Rapid Diagnostic Tests in Low-Resource Settings. To appear in Proceedings of the 2020 International Conference on Information and Communication Technologies and Development. Association for Computing Machinery, New York, NY, USA, vol. 14. 2020. DOI: TBD
 bibtex: |
     @inproceedings{park2020supporting,
-    author = {Park, Chunjong and Mariakakis, Alex and Patel, Shwetak and Yang, Jane and Lassala, Diego and Johnson, Ari and Wassuna, Beatrice and Fall, Fatou and Soda Gaye, Marème and Holeman, Isaac},
+    author = {Park, Chunjong and Mariakakis, Alex and Yang, Jane and Lassala, Diego and Djiguiba, Yasamba and Keita, Youssouf and Diarra, Hawa and Wasunna, Beatrice and Fall, Fatou and Gaye, Mar\`{e}me Soda and Ndiaye, Bara and Johnson, Ari and Holeman, Isaac and Patel, Shwetak},
     title = {Supporting Smartphone-Based Image Capture of Rapid Diagnostic Tests in Low-Resource Settings},
-    booktitle = {Proceedings of the 2020 International Conference on Information and Communication Technologies and Development},
-    series = {ICTD '20},
     year = {2020},
-    location = {Guayaquil, Ecuador},
-    pages = {145--156},
-    numpages = {12},
-    url = {TBD},
-    doi = {TBD},
-    publisher = {ACM},
+    isbn = {9781450387620},
+    publisher = {Association for Computing Machinery},
     address = {New York, NY, USA},
-    keywords = {Rapid diagnostic tests (RDTs); malaria; mobile health; imageprocessing; image quality control},
+    url = {https://doi.org/10.1145/3392561.3394630},
+    doi = {10.1145/3392561.3394630},
+    booktitle = {Proceedings of the 2020 International Conference on Information and Communication Technologies and Development},
+    articleno = {2},
+    numpages = {11},
+    keywords = {image processing, malaria, Rapid diagnostic tests (RDTs), image quality control, mobile health},
+    location = {Guayaquil, Ecuador},
+    series = {ICTD2020}
     }
 ---
