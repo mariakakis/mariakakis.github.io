@@ -11,7 +11,7 @@ authors:
 - Fatou Fall
 - Marème Soda Gaye
 - Isaac Holeman
-conference: International Conference on Information and Communication Technologies and Development (ICTD), 2020
+conference: ICTD '20
 date: 2020-06-17
 pdf: /pdfs/mali_malaria.pdf
 image: /images/pubs/mali_malaria.jpg
