@@ -13,6 +13,7 @@ authors:
 - Asta Roseway
 conference: DIS '20
 date: 2020-05-15
+pdf: /pdfs/ecopatches.pdf
 image: /images/pubs/ecopatches.jpg
 thumbnail: /images/pubs/ecopatches_thumb.jpg
 caption: (left) EcoPatches can printed by a maker with an inkjet printer and chemicals that can be purchased online. (right) EcoPatches can be read at a glance or interpreted with a companion smartphone app.
