@@ -1,18 +1,18 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
-[0] Config.pm:346> INFO - Logfile is 'mariakakis_cv.blg'
-[60] biber-darwin:290> INFO - === Tue Jun 30, 2020, 14:28:39
-[85] Biber.pm:351> INFO - Reading 'mariakakis_cv.bcf'
-[205] Biber.pm:773> INFO - Using all citekeys in bib section 0
-[219] Biber.pm:3493> INFO - Processing section 0
-[242] Biber.pm:3657> INFO - Looking for bibtex format file 'bibfile.bib' for section 0
-[246] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[249] bibtex.pm:1048> INFO - Found BibTeX data source 'bibfile.bib'
-[254] Utils.pm:149> WARN - Duplicate entry key: 'mariakakis2018affiliates' in file 'bibfile.bib', skipping ...
-[375] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[375] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[375] Biber.pm:3306> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
-[375] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[440] bbl.pm:526> INFO - Writing 'mariakakis_cv.bbl' with encoding 'ascii'
-[444] Utils.pm:149> WARN - The entry 'park2020supporting' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[452] bbl.pm:619> INFO - Output to mariakakis_cv.bbl
-[453] Biber.pm:108> INFO - WARNINGS: 2
+[1] Config.pm:346> INFO - Logfile is 'mariakakis_cv.blg'
+[210] biber-darwin:290> INFO - === Sun Jul 19, 2020, 16:50:32
+[520] Biber.pm:351> INFO - Reading 'mariakakis_cv.bcf'
+[1496] Biber.pm:773> INFO - Using all citekeys in bib section 0
+[1643] Biber.pm:3493> INFO - Processing section 0
+[1784] Biber.pm:3657> INFO - Looking for bibtex format file 'bibfile.bib' for section 0
+[1793] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[1803] bibtex.pm:1048> INFO - Found BibTeX data source 'bibfile.bib'
+[1878] Utils.pm:149> WARN - Duplicate entry key: 'mariakakis2018affiliates' in file 'bibfile.bib', skipping ...
+[2956] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2957] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2957] Biber.pm:3306> INFO - Sorting list 'ydnt/global/' of type 'entry' with scheme 'ydnt' and locale 'en-US'
+[2957] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[3359] bbl.pm:526> INFO - Writing 'mariakakis_cv.bbl' with encoding 'ascii'
+[3379] Utils.pm:149> WARN - The entry 'park2020supporting' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[3426] bbl.pm:619> INFO - Output to mariakakis_cv.bbl
+[3427] Biber.pm:108> INFO - WARNINGS: 2

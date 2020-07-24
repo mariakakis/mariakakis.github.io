@@ -19,6 +19,18 @@
 
 \refsection{0}
   \sortlist[entry]{ydnt/global/}
+    \entry{mariakakis2020dis}{booklet}{}
+      \list{location}{1}{%
+        {Eindhoven, Netherlands}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{DIS}
+      \field{month}{07}
+      \field{title}{EcoPatches: Maker-Friendly Chemical-Based UV Sensing}
+      \field{year}{2020}
+    \endentry
     \entry{mariakakis2020ecopatches}{inproceedings}{}
       \name{author}{10}{}{%
         {{hash=819998400bf176b3b291f46f5d95a657}{%
@@ -95,6 +107,16 @@
       \verb https://doi.org/10.1145/3357236.3395424
       \endverb
       \keyw{Chemical sensing; inkjet printing; environmental sensing; mobile computing; ultraviolet radiation}
+    \endentry
+    \entry{mariakakis2019utoronto}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{University of Toronto}
+      \field{month}{03}
+      \field{note}{Toronto, Canada}
+      \field{title}{Objectifying Subjective Medical Assessments Using Smartphone Sensors}
+      \field{year}{2020}
     \endentry
     \entry{park2020supporting}{inproceedings}{}
       \name{author}{14}{}{%
@@ -457,7 +479,7 @@
     \endentry
     \entry{mariakakis2018chi}{booklet}{}
       \list{location}{1}{%
-        {Montreal, QC}%
+        {Montreal, Canada}%
       }
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}

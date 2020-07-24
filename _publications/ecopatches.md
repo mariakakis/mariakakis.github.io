@@ -36,4 +36,9 @@ bibtex: |
     address = {New York, NY, USA},
     keywords = {Chemical sensing; inkjet printing; environmental sensing; mobile computing; ultraviolet radiation},
     }
+press:
+ - name: "New Scientist"
+   url: https://news.cs.washington.edu/2017/09/06/uw-researchers-are-working-on-a-way-to-screen-for-concussion-using-a-smartphone/
+   headline: "https://www.newscientist.com/article/2249346-hair-dye-that-changes-in-uv-light-can-reveal-your-risk-of-sunburn/"
+   date: 2020-07-21
 ---

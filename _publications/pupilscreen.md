@@ -70,7 +70,7 @@ press:
    headline: "Smart phone apps for disease diagnosis"
    date: 2017-11-04
  - name: "NSF Science Now"
-   url: https://science360.gov/obj/video/bfd18162-c3b8-42e8-a7b3-64ab7b898818/science-now-54
+   url: https://www.nsf.gov/news/mmg/mmg_disp.jsp?med_id=133127&from=
    headline: "Episode 54"
    date: 2017-11-21
 ---
