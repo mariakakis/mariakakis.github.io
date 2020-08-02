@@ -1,17 +1,23 @@
+- city: Toronto, ON
+  lat: 43.653225
+  lng: -79.383186
+  reason: Assistant Professor at the University of Toronto
+  year: 2020
+
 - city: Seattle, WA
   lat: 47.606209
   lng: -122.332071
-  reason: Grad at UW
-  year: 2019
+  reason: Gradudate student at the University of Washington
+  year: 2013
 
 - city: Durham, NC
   lat: 35.994033
   lng: -78.898619
-  reason: Undergrad at Duke
-  year: 2013
+  reason: Undergradudate student at Duke University
+  year: 2009
 
 - city: Chapel Hill, NC
   lat: 35.913200
   lng: -79.055845
   reason: Hometown
-  year: 2009
+  year: 1991

@@ -5,15 +5,9 @@ redirect_from:
 - /projects/
 - /wiki/Projects/
 ---
-<h1>Select Ongoing Projects</h1>
-{% assign sorted_pubs = site.inprogress | sort: 'title' %}
-
-{% for pub in sorted_pubs %}      
-<h2>{{ pub.title }}</h2>
-<p>{{ pub.summary }}</p>
-{% endfor %}
-
 <h1>Full Publication List</h1>
+<p>This publication list is primarily restricted to work that I did at the University of Washington while I was a graduate student and postdoc.
+Future research by both myself and my students will be listed in my research group's webpage (TBD).</p>
 
 <div id="myButtons" class="btn-group" data-toggle="buttons">
   <label class="btn btn-primary active">
