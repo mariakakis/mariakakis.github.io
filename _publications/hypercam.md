@@ -13,7 +13,7 @@ authors:
 - patel
 conference: UbiComp '15
 date: 2015-09-01
-award: Best Paper Honorable Mention
+award: Honorable Mention
 pdf: /pdfs/hypercam.pdf
 image: /images/pubs/hypercam.jpg
 thumbnail: /images/pubs/hypercam_thumb.jpg
