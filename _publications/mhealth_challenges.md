@@ -7,6 +7,7 @@ authors:
 - patel
 conference: IEEE Pervasive Computing, 2019
 date: 2019-08-13
+award: Best Paper Runner-Up
 pdf: /pdfs/mhealth_challenges.pdf
 image: /images/pubs/mhealth_challenges.jpg
 thumbnail: /images/pubs/mhealth_challenges_thumb.jpg
