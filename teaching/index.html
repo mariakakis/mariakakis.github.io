@@ -10,7 +10,11 @@ redirect_from:
 
 {% for course in sorted_courses %}
 
+{% if course.website.size > 0 %}
 <h2><a href="{{ course.website }}" target="_blank">{{ course.title }}</a></h2>
+{% else %}
+<h2>{{ course.title }}</h2>
+{% endif %}
 <p><b>Offerings: 
 {% for offering in course.offerings %}
 {{ offering }}
