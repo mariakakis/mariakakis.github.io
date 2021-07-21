@@ -7,13 +7,13 @@ title: News
 
 <ul class="news">
 {% for news in sorted_news %}
-  <li><div class="date">{{ news.date | date: '%B %d, %Y' }}:</div>
-    <div class="blurb">
+  <li>
+    {{ news.date | date: '%B %d, %Y' }}:
       {% if news.url == nil %}
       {{ news.blurb }}
       {% else %}
       <a href="{{ news.url }}">{{ news.blurb }}</a>
       {% endif %}
-      </div></li>
+  </li>
 {% endfor %}
 </ul>
