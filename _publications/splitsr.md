@@ -1,5 +1,5 @@
 ---
-title: 'Supporting Smartphone-Based Image Capture of Rapid Diagnostic Tests in Low-Resource Settings'
+title: 'SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices'
 authors: 
 - xinliu
 - Yuang Li
