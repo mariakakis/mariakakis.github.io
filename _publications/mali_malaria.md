@@ -11,7 +11,7 @@ authors:
 - Fatou Fall
 - Marème Soda Gaye
 - Isaac Holeman
-conference: ICTD '20
+venue: $ICTD$
 date: 2020-06-17
 pdf: /pdfs/mali_malaria.pdf
 image: /images/pubs/mali_malaria.jpg

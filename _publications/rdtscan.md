@@ -20,7 +20,7 @@ authors:
 - Matthew Thompson
 - mariakakis
 - patel
-conference: IMWUT '21
+venue: $IMWUT$
 date: 2021-03-29
 pdf: /pdfs/rdtscan.pdf
 image: /images/pubs/mali_malaria.jpg

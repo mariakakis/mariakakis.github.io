@@ -11,7 +11,7 @@ authors:
 - Marcel Gavriliu
 - Gaetano Borriello
 - patel
-conference: UbiComp '15
+venue: UbiComp
 date: 2015-09-01
 award: Honorable Mention
 pdf: /pdfs/hypercam.pdf

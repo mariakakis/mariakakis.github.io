@@ -5,7 +5,7 @@ authors:
 - Souvik Sen
 - Jeongkeun Lee
 - Kyu-Han Kim
-conference: MobiSys '14
+venue: $MOBISYS$
 date: 2014-06-18
 pdf: /pdfs/sail.pdf
 image: /images/pubs/sail.jpg

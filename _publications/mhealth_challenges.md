@@ -5,7 +5,7 @@ authors:
 - wang
 - goel
 - patel
-conference: IEEE Pervasive Computing, 2019
+venue: IEEE Pervasive Computing
 date: 2019-08-13
 award: Best Paper Runner-Up
 pdf: /pdfs/mhealth_challenges.pdf

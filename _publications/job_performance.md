@@ -9,7 +9,7 @@ authors:
 - patel
 - mariakakis
 - Tim Althoff
-conference: WWW '21
+venue: $WWW$
 date: 2021-04-19
 pdf: /pdfs/job_performance.pdf
 image: /images/pubs/job_performance.png

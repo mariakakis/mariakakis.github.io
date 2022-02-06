@@ -5,7 +5,7 @@ authors:
 - wang
 - patel
 - Joanne Wen
-conference: EMBC '16
+venue: $EMBC$
 date: 2016-08-16
 pdf: /pdfs/ipressure.pdf
 slides: 'https://www.dropbox.com/s/0s98p2l8tf20t9e/iPressure_presentation.pptx?dl=0'

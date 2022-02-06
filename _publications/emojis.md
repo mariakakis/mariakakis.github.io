@@ -5,7 +5,7 @@ authors:
 - mariakakis
 - Jacob Burke
 - wobbrock
-conference: iConference, 2021
+venue: iConference
 date: 2021-03-19
 pdf: /pdfs/emojis.pdf
 image: /images/pubs/emojis.png

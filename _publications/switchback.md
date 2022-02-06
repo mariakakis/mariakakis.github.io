@@ -6,7 +6,7 @@ authors:
 - Md. Tanvir Islam Aumi
 - patel
 - wobbrock
-conference: CHI '15
+venue: $CHI$
 date: 2015-04-01
 pdf: /pdfs/switchback.pdf
 slides: 'https://www.dropbox.com/s/m9uu0potuetp27p/SwitchBack_presentation.pptx?dl=0'

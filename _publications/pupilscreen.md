@@ -9,7 +9,7 @@ authors:
 - Anthony Law
 - Lynn McGrath
 - patel
-conference: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2017
+venue: $IMWUT$
 date: 2017-07-05
 pdf: /pdfs/pupilscreen.pdf
 slides: 'https://www.dropbox.com/s/mlxxsrd5t4rfzsr/PupilScreen_presentation.pptx?dl=0'

@@ -1,13 +1,25 @@
-{% capture author_list %}
-{% for author_id in include.authors %}
-{% assign author_match = site.data.members | where: "id",author_id %}
-{% if author.website == nil %}
-{{ author.name }}
+<!-- Compute number of items to show -->
+{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
+{% if include.num_items == -1 %}
+  {% assign num_items = sorted_news.size %}
 {% else %}
-<a href="{{author.website}}">{{ author.name }}</a>
+  {% assign num_items = include.num_items %}
 {% endif %}
-{% if forloop.last %}{% else %}, {% endif %}
+
+<!-- Generate the news list -->
+{% capture news_list %}
+<ul>
+{% for news in sorted_news limit:num_items %}
+  <li>
+    {{ news.date | date: '%B %d, %Y' }}:
+    {% if news.url == nil %}
+    {{ news.blurb }}
+    {% else %}
+    <a href="{{ news.url }}">{{ news.blurb }}</a>
+    {% endif %}
+  </li>
 {% endfor %}
+</ul>
 {% endcapture %}
   
-{{ author_list | strip_newlines }}
+{{ news_list }}

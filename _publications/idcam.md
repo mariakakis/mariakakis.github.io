@@ -7,7 +7,7 @@ authors:
 - Victor Chan
 - Alanson Sample
 - patel
-conference: IEEE RFID '19
+venue: IEEE Journal of Radio Frequency Identification (RFID)
 date: 2019-03-02
 award: Best Paper Finalist
 pdf: /pdfs/idcam.pdf

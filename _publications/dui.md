@@ -5,7 +5,7 @@ authors:
 - Sayna Parsi
 - patel
 - wobbrock
-conference: CHI '18
+venue: $CHI$
 date: 2018-04-22
 pdf: /pdfs/dui.pdf
 slides: 'https://www.dropbox.com/s/riobvfwegnfld6v/DUI_presentation.pptx?dl=0'

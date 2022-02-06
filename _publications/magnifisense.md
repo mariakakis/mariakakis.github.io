@@ -7,7 +7,7 @@ authors:
 - goel
 - Sidhant Gupta
 - patel
-conference: UbiComp '15
+venue: $UBICOMP$
 date: '2015-09-07'
 pdf: /pdfs/magnifisense.pdf
 image: '/images/pubs/magnifisense.jpg'

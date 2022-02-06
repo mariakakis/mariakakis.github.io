@@ -11,7 +11,7 @@ authors:
 - Paul Johns
 - Gonzalo Ramos
 - Asta Roseway
-conference: DIS '20
+venue: $DIS$
 date: 2020-05-15
 pdf: /pdfs/ecopatches.pdf
 slides: 'https://www.dropbox.com/s/zi4mf9z5htdqau3/EcoPatches_presentation.pptx?dl=0'

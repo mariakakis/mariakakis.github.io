@@ -7,7 +7,7 @@ authors:
 - mariakakis
 - patel
 - Michael R Levitt
-conference: Neurosurgery Vol. 66, Supplement_1
+venue: Neurosurgery Vol. 66, Supplement_1
 date: 2019-08-20
 image: /images/pubs/pupilscreen.jpg
 thumbnail: /images/pubs/pupilscreen_thumb.jpg

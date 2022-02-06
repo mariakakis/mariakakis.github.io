@@ -134,58 +134,8 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
-
-.masthead {
-  background-color: black;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
 .bx-clone{
    display: none !important;
-}
-
-.news {
-  h2 {
-    margin-top: 0px;
-  }
-  ul {
-    padding-left: 0px;
-    
-    li {
-      list-style: none;
-      margin-bottom: 10px;
-      
-      .date {
-        display: inline;
-      }
-      .blurb {
-        display: inline
-      }
-    }
-  }
 }
 
 //
@@ -277,5 +227,4 @@ footer {
 @import "svg-icons";
 
 @import "publications";
-@import "members";
 @import "home";

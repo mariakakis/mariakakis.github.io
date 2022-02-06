@@ -8,7 +8,7 @@ authors:
 - Ziheng Jiang
 - mariakakis
 - patel
-conference: IMWUT '21
+venue: $IMWUT$
 date: 2021-03-29
 pdf: /pdfs/splitsr.pdf
 image: /images/pubs/splitsr.jpg

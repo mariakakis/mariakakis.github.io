@@ -6,7 +6,7 @@ authors:
 - Hung Ngo
 - patel
 - mariakakis
-conference: CHI Late Breaking Work '21
+venue: Late Breaking Work, $CHI$
 date: 2021-05-08
 pdf: /pdfs/rdtcheck.pdf
 image: /images/pubs/rdtcheck.jpg

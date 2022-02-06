@@ -5,7 +5,7 @@ authors:
 - Vijay Srinivasan
 - Kiran Rachuri
 - Abhishek Mukherji
-conference: PerCom '16 Workshop on Sensing Systems and Applications Using Wrist-Worn Smart Devices
+venue: WristSense Workshop, $PERCOM$
 date: 2016-03-14
 pdf: /pdfs/watchudrive.pdf
 slides: 'https://www.dropbox.com/s/04ok5flu1bfn9ux/WatchUDrive_presentation.pptx?dl=0'

@@ -1,12 +1,8 @@
-
 //
-// VARIABLES
+// COLORS
 //
 
-// Colors
 $blue: #4183C4;
-
-// Grays
 $black: #000;
 $darkerGray: #222;
 $darkGray: #333;
@@ -14,6 +10,11 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
+//
+// FONTS
+//
+
+// Definitions
 @font-face {
     font-family: "Avenir";
     src: url("fonts/Avenir-Medium.woff") format('woff');
@@ -23,8 +24,7 @@ $white: #fff;
     src: url("fonts/Avenir-Heavy.woff") format('woff');
 }
 
-
-// Font stacks
+// Stacks
 $avenir: Avenir, Helvetica, Arial;
 $avenirHeavy: AvenirHeavy, Helvetica, Arial;
 $helvetica: Helvetica, Arial, sans-serif;

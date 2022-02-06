@@ -10,7 +10,7 @@ authors:
 - mariakakis
 - Jennifer Mankoff
 - Anind Dey
-conference: CHI '20
+venue: $CHI$
 date: 2020-03-15
 pdf: /pdfs/earbuddy.pdf
 image: /images/pubs/earbuddy.jpg

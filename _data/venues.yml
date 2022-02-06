@@ -1,0 +1,22 @@
+- id: $CHI$
+  full_name: ACM Conference on Human Factors in Computing Systems (CHI)
+- id: $COMPASS$
+  full_name: ACM SIGCAS Conference on Computing and Sustainable Societies (COMPASS)
+- id: $DIS$
+  full_name: ACM Conference on Designing Interactive Systems (DIS)
+- id: $EMBC$
+  full_name: Engineering in Medicine and Biology Conference (EMBC)
+- id: $ICTD$
+  full_name: Conference on Information & Communication Technologies and Development (ICTD)
+- id: $IMWUT$
+  full_name: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)
+- id: $JMIR$
+  full_name: Journal of Medical Internet Research (JMIR)
+- id: $MOBISYS$
+  full_name: ACM Conference on Mobile Systems, Applications, and Services (MobiSys)
+- id: $PERCOM$
+  full_name: IEEE Conference on Pervasive Computing and Communications (PerCom)
+- id: $UBICOMP$
+  full_name: ACM Joint Conference on Pervasive and Ubiquitous Computing (UbiComp)
+- id: $WWW$
+  full_name: World Wide Web Conference (WWW)

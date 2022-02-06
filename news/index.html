@@ -5,15 +5,5 @@ title: News
 
 {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
 
-<ul class="news">
-{% for news in sorted_news %}
-  <li>
-    {{ news.date | date: '%B %d, %Y' }}:
-      {% if news.url == nil %}
-      {{ news.blurb }}
-      {% else %}
-      <a href="{{ news.url }}">{{ news.blurb }}</a>
-      {% endif %}
-  </li>
-{% endfor %}
-</ul>
+<h1>News</h1>
+{% include news_list.html num_items=-1 %}

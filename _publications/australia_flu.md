@@ -16,7 +16,7 @@ authors:
 - Mark Rieder
 - Cynthia LeRouge
 - Matthew Thompson
-conference: BMJ Open '21
+venue: BMJ Open
 date: 2020-11-17
 pdf: /pdfs/australia_flu.pdf
 image: /images/pubs/australia_flu.png
