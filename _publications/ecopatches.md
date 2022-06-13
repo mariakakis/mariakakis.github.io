@@ -13,14 +13,9 @@ authors:
 - Asta Roseway
 venue: $DIS$
 date: 2020-05-15
-pdf: /pdfs/ecopatches.pdf
-slides: 'https://www.dropbox.com/s/zi4mf9z5htdqau3/EcoPatches_presentation.pptx?dl=0'
-image: /images/pubs/ecopatches.jpg
-thumbnail: /images/pubs/ecopatches_thumb.jpg
-caption: (left) EcoPatches can printed by a maker with an inkjet printer and chemicals that can be purchased online. (right) EcoPatches can be read at a glance or interpreted with a companion smartphone app.
+link: https://dl.acm.org/doi/abs/10.1145/3357236.3395424
+thumbnail: /images/pubs/ecopatches.jpg
 keywords: health,interaction
-abstract: |
-    Year-round ultraviolet exposure silently causes skin damage that goes unnoticed until sunburn. Current personal wearables for monitoring UV exposure have not seen significant uptake, which may be attributed to their one-size-fits-all aesthetic or inapplicability to people with different skin tones. We present EcoPatches, inkjet-printable chemical patches that mediate a person's relationship with their environment by allowing them to create designs and formulations that resonate with them. Supporting human- and machine-interpretability for EcoPatches' visual changes means that users can glance at their EcoPatch during the day to see large exposure changes or take a picture of their EcoPatch with a smartphone app for more accurate and precise readings. We conducted an online survey to elicit visual design recommendations that support these features. We also evaluated both interpretation methods, finding that they achieved strong Pearson correlation coefficients with the EcoPatches' known exposure levels (human: 0.79, app: 0.90).
 citation: |
     Alex Mariakakis, Sifang Chen, Bichlien H. Nguyen, Kirsten Bray, Molly Blank, Jonathan Lester, Lauren Ryan, Paul Johns, Gonzalo Ramos, Asta Roseway. EcoPatches: Maker-Friendly Chemical-Based UV Sensing. Proceedings of the 2020 International Conference on Designing Interactive Systems. Association for Computing Machinery, New York, NY, USA, vol. 14. 2020. DOI: TBD
 bibtex: |

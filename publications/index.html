@@ -5,7 +5,7 @@ redirect_from:
 - /projects/
 ---
 <h1>Publication List</h1>
-<p>This list includes work that I published at the University of Washington as a graduate student and postdoctoral researcher. It also includes work that I have published while at the University of Toronto but outside of my research group. To see the work that is published by my research group, please visit the corresponding publication on the <a href="https://chai-toronto.github.io/publications/">CHAI homepage</a>.</p>
+<p>This list includes work that I published at the University of Washington as a graduate student and postdoctoral researcher. To see the work that is published by my research group, please visit my lab's <a href="https://chai-toronto.github.io/publications/">homepage</a>.</p>
 
 <div id="myButtons" class="btn-group" data-toggle="buttons">
   <label class="btn btn-primary active">
@@ -24,101 +24,152 @@ redirect_from:
 {% capture last_year %}0{% endcapture %}
 {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
 
-{% for pub in sorted_pubs %}      
-{% capture this_year %}{{ pub.date | date: "%Y" }}{% endcapture %}
+{% for pub in sorted_pubs %}
+  {% capture this_year %}{{ pub.date | date: "%Y" }}{% endcapture %}
+  {% if this_year != nil and this_year != last_year%}
+  <h1 id="{{ this_year }}-ref">{{this_year}}</h1>
+  {% endif %}
+  {% capture last_year %}{{ this_year }}{% endcapture %}
 
-{% if this_year != nil and this_year != last_year%}
-<h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-<hr/>
-{% endif %}
+  <div class="row publication-badge" data-keywords="{{ pub.keywords }}">
+    <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
+      {% if pub.thumbnail.size > 0 %}<a href="{{ pub.link }}"><img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
+    </div>
+    <div class="publication-info col-md-10 col-sm-9 col-xs-12">
+      <!-- Title -->
+      <a href="{{ pub.link }}"><h2><u>{{ pub.title }}</u></h2></a>
+      
+      <p>
+        <!-- Authors -->
+        <span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
 
-{% capture last_year %}{{ this_year }}{% endcapture %}
+        <!-- Venue and award -->
+        <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{% include conference_extender.html venue=pub.venue %}, {{ this_year }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
 
-<div class="row publication-badge" data-keywords="{{ pub.keywords }}">
-  <div class="publication-pic col-md-2 col-sm-3 col-xs-12 text-left">
-    {% if pub.thumbnail.size > 0 %}<a href="{{ pub.url }}"><img src="{{ pub.thumbnail }}"/></a>{% endif %}&nbsp;
-  </div>
-  <div class="publication-info col-md-10 col-sm-9 col-xs-12">
-    <!-- Title -->
-    <a href="{{ pub.url }}"><h2>{{ pub.title }}</h2></a>
-
-    <p>
-      <!-- Authors -->
-      <span class="authors">{% include author_list.html authors=pub.authors %}</span><br />
-
-      <!-- Venue and award -->
-      <i>{% if pub.date > site.time %}<span class="to-appear">To appear in </span>{% endif %}{% include conference_extender.html venue=pub.venue %}, {{ this_year }}</i>{% if pub.award %}, <span class="award">{{ pub.award }}</span>{% endif %}<br/>
-
-      <!-- PDF -->
-      {% if pub.pdf.size > 0 %}
-        <a href="{{ pub.pdf }}" class="btn btn-default btn-xs" aria-label="PDF">
-        <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> PDF
-        </a> 
-      {% endif %}
-      <!-- Appendix -->
-      {% if pub.appendix.size > 0 %}
-        <a href="{{ pub.appendix }}" class="btn btn-default btn-xs" aria-label="Appendix" target="_blank">
-        <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> Appendix
-        </a> 
-      {% endif %}
-      <!-- Video -->
-      {% if pub.video.size > 0 %}
-        <a href="{{ pub.video }}" class="btn btn-default btn-xs" aria-label="Video" target="_blank">
-        <span class="glyphicon glyphicon-facetime-video" aria-hidden="true" style="color:darkred"></span> Video
-        </a> 
-      {% endif %}
-      <!-- Slides -->
-      {% if pub.slides.size > 0 %}
-        <a href="{{ pub.slides }}" class="btn btn-default btn-xs" aria-label="Slides" target="_blank">
-        <span class="glyphicon glyphicon-file" aria-hidden="true" style="color:darkred"></span> Slides
-        </a> 
-      {% endif %}
-      <!-- Citation -->
-      <button type="button" class="btn btn-default btn-xs" aria-label="Citation" data-toggle="modal" data-target="#{{pub.title | slugify}}_citation">
-        <span class="glyphicon glyphicon-book" aria-hidden="true" style="color:darkred"></span> Citation
-      </button>
-      <!-- Bibtex -->
-      <button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{pub.title | slugify}}_bibtex">
-        <span class="glyphicon glyphicon-book" aria-hidden="true" style="color:darkred"></span> BibTeX
-      </button>
-    </p>
-  </div>
-</div>
-
-<div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_citation">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">{{ pub.title }}</h4>
-      </div>
-      <div class="modal-body">
-        <code>{{ pub.citation }}</code>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
+        {% if pub.date <= site.time %}
+          <!-- Video -->
+          {% if pub.video.size > 0 %}
+            <a href="{{ pub.video }}" class="btn btn-default btn-xs" aria-label="Video" target="_blank">
+            <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Video
+          </a> 
+          {% endif %}
+          <!-- Citation -->
+          {% if pub.citation %}
+            <button type="button" class="btn btn-default btn-xs" aria-label="Citation" data-toggle="modal" data-target="#{{pub.title | slugify}}_citation">
+            <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Citation
+            </button>
+          {% endif %}
+          <!-- Bibtex -->
+          {% if pub.bibtex %}
+            <button type="button" class="btn btn-default btn-xs" aria-label="BibTeX" data-toggle="modal" data-target="#{{pub.title | slugify}}_bibtex">
+            <span class="glyphicon glyphicon-book" aria-hidden="true"></span> BibTeX
+            </button>
+          {% endif %}
+          <!-- News -->
+          {% if pub.press %}
+            <button type="button" class="btn btn-default btn-xs" aria-label="News" data-toggle="modal" data-target="#{{pub.title | slugify}}_press">
+            <span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Media Coverage
+            </button>
+          {% endif %}
+          <!-- Video -->
+          {% if pub.video_embed %}
+            <button type="button" class="btn btn-default btn-xs" aria-label="Video" data-toggle="modal" data-target="#{{pub.title | slugify}}_video">
+            <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Video
+            </button>
+          {% endif %}
+        {% endif %}
+      </p>
     </div>
   </div>
-</div>
 
-<div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_bibtex">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">{{ pub.title }}</h4>
-      </div>
-      <div class="modal-body">
-        <code>{{ pub.bibtex }}</code>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+  <!-- Citation -->
+  {% if pub.citation %}
+    <div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_citation">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{ pub.title }}</h4>
+          </div>
+          <div class="modal-body">
+            <code>{{ pub.citation }}</code>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  {% endif %}
+
+  <!-- BibTeX -->
+  {% if pub.bibtex %}
+    <div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_bibtex">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{ pub.title }}</h4>
+          </div>
+          <div class="modal-body">
+            <code>{{ pub.bibtex }}</code>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  {% endif %}
+
+  <!-- Media Coverage -->
+  {% if pub.press %}
+    <div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_press">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{ pub.title }}</h4>
+          </div>
+          <div class="modal-body">
+            {% assign sorted_articles = pub.press | sort: 'name' %}
+            {% for article in sorted_articles %}
+              <u><a href="{{article.url}}">{{ article.name }}</a></u> ({{ article.date  | date: '%B %d, %Y'}}): {{ article.headline }}<br/>
+            {% endfor %}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+  {% endif %}
+
+  <!-- Video -->
+  {% if pub.video_embed %}
+    <div class="modal fade" tabindex="-1" role="dialog" id="{{pub.title | slugify}}_video">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">{{ pub.title }}</h4>
+          </div>
+          <div class="modal-body">
+            {{ pub.video_embed }}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Close video when window closes -->
+    <script>
+      $('#{{pub.title | slugify}}_video').on('hidden.bs.modal', function () {
+          $("#{{pub.title | slugify}}_video iframe").attr("src", $("#{{pub.title | slugify}}_video iframe").attr("src"));
+      });
+    </script>
+  {% endif %}
 
 {% endfor %}
-
-

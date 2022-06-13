@@ -34,13 +34,9 @@ Create a new file in `_publications/`. The file should have the following fields
 | `authors` | yes | This should be a list of full names. If an author is a lab member (or former lab member), use the member's `id` instead of their name to link it to their website. |
 | `venue` | yes | Full name of the publication venue. If it is a common name, look in `_data/venues.yml` to see if a shortcut has been defined. If so, you can use the shorthand name (including the `$` delimiters) and the full name will automatically be used. You can mix shorthand names with other text if you need to specify that it was submitted to a workshop or alternative track. |
 | `date` | yes | Publication/presentation date |
-| `pdf` | yes | Copy from the ACM DL or equivalent when possible, otherwise use your camera-ready. |
-| `image` | yes | Hi-res image for the project detail page (accompanies `caption`). Add to `images/pubs/`. |
 | `thumbnail` | yes | Must be 16x9 and 300px wide. Add to `images/pubs/`. |
-| `caption` | yes | This will go under the image on the project detail page |
 | `award` | no | The name of the award the paper received (e.g., `'Best Paper Award'` or `'Honorable Mention Award'`) |
 | `bibtex` | no | Copy from the ACM DL or equivalent when possible, otherwise use Google Scholar. |
 | `citation` | no | Copy from the ACM DL or equivalent when possible, otherwise use the Chicago format from Google Scholar. |
-| `news` | no | List of different press releases, which contains <ul><li>`name`: the name of the news entity</li><li>`url`: the url to the article</li><li>`headline`: the headline</li><li>`date`: the date the article was published</li></ul>
-| `video` | no | Link to external video, such as YouTube or Vimeo |
+| `news` | no | List of different press releases, which contains <ul><li>`name`: the name of the news entity</li><li>`url`: the url to the article</li><li>`headline`: the headline</li><li>`date`: the date the article was published</li></ul> |
 | `video_embed` | no | HTML embed code for video player |

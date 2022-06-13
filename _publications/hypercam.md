@@ -13,13 +13,9 @@ authors:
 - patel
 venue: UbiComp
 date: 2015-09-01
+link: https://dl.acm.org/doi/abs/10.1145/2750858.2804282
 award: Honorable Mention
-pdf: /pdfs/hypercam.pdf
-image: /images/pubs/hypercam.jpg
-thumbnail: /images/pubs/hypercam_thumb.jpg
-caption: Post-processing of hyperspectral imaging can reveal hand features
-abstract: |
-    Emerging uses of imaging technology for consumers cover a wide range of application areas from health to interaction techniques; however, typical cameras primarily transduce light from the visible spectrum into only three overlapping components of the spectrum: red, blue, and green. In contrast, hyperspectral imaging breaks down the electromagnetic spectrum into more narrow components and expands coverage beyond the visible spectrum. While hyperspectral imaging has proven useful as an industrial technology, its use as a sensing approach has been fragmented and largely neglected by the UbiComp community. We explore an approach to make hyperspectral imaging easier and bring it closer to the end-users. HyperCam provides a low-cost implementation of a multispectral camera and a software approach that automatically analyzes the scene and provides a user with an optimal set of images that try to capture the salient information of the scene. We present a number of use-cases that demonstrate HyperCam's usefulness and effectiveness.
+thumbnail: /images/pubs/hypercam.jpg
 citation: |
     Mayank Goel, Eric Whitmire, Alex Mariakakis, T. Scott Saponas, Neel Joshi, Dan Morris, Brian Guenter, Marcel Gavriliu, Gaetano Borriello, and Shwetak N. Patel. 2015. HyperCam: hyperspectral imaging for ubiquitous computing applications. In Proceedings of the 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp '15). ACM, New York, NY, USA, 145-156. DOI: http://dx.doi.org/10.1145/2750858.2804282
 bibtex: |

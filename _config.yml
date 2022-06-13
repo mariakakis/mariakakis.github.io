@@ -20,17 +20,8 @@ google_analytics: UA-105342327-1
 
 collections:
   publications:
-    output: true
-  inprogress:
   teaching:
   thoughts:
-    
-defaults:
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: publication
 
 #
 # Flags below are optional
