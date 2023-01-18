@@ -2,6 +2,6 @@
 
 {% for conf in site.data.venues %}
 	{% assign conf_text = conf_text | replace:conf.id,conf.full_name %}
-{% endfor%}
+{% endfor %}
   
 {{ conf_text }}

@@ -1,3 +1,9 @@
+- city: Asheville, NC
+  lat: 35.595058
+  lng: -82.551491
+  reason: Summer break
+  year: 2022
+
 - city: Shelton, WA
   lat: 47.213329
   lng: -123.106079
@@ -7,7 +13,7 @@
 - city: Nashville, TN
   lat: 36.174465
   lng: -86.767960
-  reason: Girlfriend's friend's wedding
+  reason: Friend's wedding
   year: 2019
 
 - city: Philadelphia, PA
@@ -68,12 +74,6 @@
   lat: 36.169941
   lng: -115.139830
   year: 2017
-
-- city: Portland, OR
-  lat: 45.523062
-  lng: -122.676482
-  reason: Friend's bachelor party
-  year: 2018
 
 - city: Wilmington, NC
   lat: 34.225726
