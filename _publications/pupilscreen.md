@@ -35,10 +35,6 @@ press:
    url: https://news.cs.washington.edu/2017/09/06/uw-researchers-are-working-on-a-way-to-screen-for-concussion-using-a-smartphone/
    headline: "UW researchers are working on a way to screen for concussion using a smartphone"
    date: 2017-09-06
- - name: "Xconomy"
-   url: http://www.xconomy.com/seattle/2017/09/06/smartphone-medicine-uw-researchers-detect-concussions-with-an-app/#
-   headline: "Detecting Concussions With Machine Learning, Smartphones, and a Startup"
-   date: 2017-09-06
  - name: "GeekWire"
    url: https://www.geekwire.com/2017/univ-washington-researchers-developing-smartphone-app-can-detect-concussions/
    headline: "Univ. of Washington researchers developing smartphone app that can detect concussions"
