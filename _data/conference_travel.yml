@@ -1,7 +1,19 @@
+- city: Cancún, Mexico
+  lat: 21.161907
+  lng: -86.851524
+  reason: UbiComp 2023
+  year: 2023
+
 - city: Portland, OR
   lat: 45.523062
   lng: -122.676482
   reason: MobiSys 2022
+  year: 2022
+
+- city: Seattle, WA
+  lat: 47.653205
+  lng: -122.305997
+  reason: COMPASS 2022
   year: 2022
 
 - city: Singapore

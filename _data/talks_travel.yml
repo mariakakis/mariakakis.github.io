@@ -1,0 +1,11 @@
+- city: Amherst, MA
+  lat: 42.340382
+  lng: -72.496819
+  reason: UMass Amherst
+  year: 2023
+
+- city: Boston, MA
+  lat: 42.360082
+  lng: -71.058880
+  reason: Northeastern University
+  year: 2023
