@@ -1,3 +1,18 @@
+- city: Ho Chi Minh City, Vietnam
+  lat: 10.781319
+  lng: 106.695503
+  year: 2024
+
+- city: Hoi An, Vietnam
+  lat: 15.876521
+  lng: 108.321722
+  year: 2024
+
+- city: Hanoi, Vietnam
+  lat: 21.031903
+  lng: 105.846342
+  year: 2024
+
 - city: New Orleans, LA
   lat: 29.951065
   lng: -90.071533
