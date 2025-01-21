@@ -12,17 +12,6 @@ date: 2022-01-03
 link: https://humanfactors.jmir.org/2022/1/e30474
 thumbnail: /images/pubs/mhealth_survey.png
 keywords: health
-citation: |
-    Alex Mariakakis, Ravi Karkar, Shwetak N. Patel, Julie A. Kientz, James Fogarty, and Sean A. Munson. "Using Health Concept Surveying to Elicit Usable Evidence: Case Studies of a Novel Evaluation Methodology." JMIR Human Factors 9, no. 1 (2022): e30474.
-bibtex: |
-    @article{mariakakis2022using,
-    title={Using Health Concept Surveying to Elicit Usable Evidence: Case Studies of a Novel Evaluation Methodology},
-    author={Mariakakis, Alex and Karkar, Ravi and Patel, Shwetak N and Kientz, Julie A and Fogarty, James and Munson, Sean A and others},
-    journal={JMIR Human Factors},
-    volume={9},
-    number={1},
-    pages={e30474},
-    year={2022},
-    publisher={JMIR Publications Inc., Toronto, Canada}
-    }
+abstract: |
+  Developers, designers, and researchers use rapid prototyping methods to project the adoption and acceptability of their health intervention technology (HIT) before the technology becomes mature enough to be deployed. Although these methods are useful for gathering feedback that advances the development of HITs, they rarely provide usable evidence that can contribute to our broader understanding of HITs. In this research, we aim to develop and demonstrate a variation of vignette testing that supports developers and designers in evaluating early-stage HIT designs while generating usable evidence for the broader research community.
 ---

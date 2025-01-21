@@ -11,21 +11,9 @@ venue: $IMWUT$
 date: 2017-07-05
 link: https://dl.acm.org/doi/abs/10.1145/3090085
 thumbnail: /images/pubs/biliscreen.jpg
-video_embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xAI-95DSZi8" frameborder="0" allowfullscreen></iframe>'
 keywords: health
-bibtex: |
-    @article{mariakakis2017biliscreen,
-    title={BiliScreen: Smartphone-Based Scleral Jaundice Monitoring for Liver and Pancreatic Disorders},
-    author={Mariakakis, Alex and Banks, Megan A and Phillipi, Lauren and Yu, Lei and Taylor, James and Patel, Shwetak N},
-    journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
-    volume={1},
-    number={2},
-    pages={20},
-    year={2017},
-    publisher={ACM},
-    url={http://doi.acm.org/10.1145/3090085},
-    doi={10.1145/3090085}
-    }
+abstract: |
+  Pancreatic cancer has one of the worst survival rates amongst all forms of cancer because its symptoms manifest later into the progression of the disease. One of those symptoms is jaundice, the yellow discoloration of the skin and sclera due to the buildup of bilirubin in the blood. Jaundice is only recognizable to the naked eye in severe stages, but a ubiquitous test using computer vision and machine learning can detect milder forms of jaundice. We propose BiliScreen, a smartphone app that captures pictures of the eye and produces an estimate of a person's bilirubin level, even at levels normally undetectable by the human eye. We test two low-cost accessories that reduce the effects of external lighting: (1) a 3D-printed box that controls the eyes' exposure to light and (2) paper glasses with colored squares for calibration. In a 70-person clinical study, we found that BiliScreen with the box achieves a Pearson correlation coefficient of 0.89 and a mean error of -0.09 ± 2.76 mg/dl in predicting a person's bilirubin level. As a screening tool, BiliScreen identifies cases of concern with a sensitivity of 89.7% and a specificity of 96.8% with the box accessory.
 press:
  - name: "Allen School News"
    url: https://news.cs.washington.edu/2017/08/28/snap-a-selfie-screen-for-pancreatic-cancer-with-new-app-from-uw-researchers/
@@ -87,4 +75,5 @@ press:
    url: https://www.healio.com/hematology-oncology/gastrointestinal-cancer/news/online/%7B16eb3862-73f3-4dcb-a33b-72d54a0ead1e%7D/smartphone-app-helps-screen-for-pancreatic-cancer
    headline: "Smartphone app helps screen for pancreatic cancer"
    date: 2017-1-23
+video_embed: https://www.youtube.com/embed/xAI-95DSZi8
 ---

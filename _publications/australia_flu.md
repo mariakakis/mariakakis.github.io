@@ -22,17 +22,6 @@ link: https://bmjopen.bmj.com/content/10/11/e036298.abstract
 pdf: /pdfs/australia_flu.pdf
 thumbnail: /images/pubs/australia_flu.jpeg
 keywords: health,interaction
-citation: |
-    Victoria Lyon, Monica Zigman Suchsland, Monique Chilver, Nigel Stocks, Barry Lutz, Philip Su, Shawna Cooper et al. "Diagnostic accuracy of an app-guided, self-administered test for influenza among individuals presenting to general practice with influenza-like illness: study protocol." BMJ open 10, no. 11 (2020): e036298.
-bibtex: |
-    @article{lyon2020diagnostic,
-    title={Diagnostic accuracy of an app-guided, self-administered test for influenza among individuals presenting to general practice with influenza-like illness: study protocol},
-    author={Lyon, Victoria and Suchsland, Monica Zigman and Chilver, Monique and Stocks, Nigel and Lutz, Barry and Su, Philip and Cooper, Shawna and Park, Chunjong and Lavitt, Libby Rose and Mariakakis, Alex and others},
-    journal={BMJ open},
-    volume={10},
-    number={11},
-    pages={e036298},
-    year={2020},
-    publisher={British Medical Journal Publishing Group}
-    }
+abstract: |
+  Diagnostic tests for influenza in Australia are currently only authorised for use in clinical settings. At-home diagnostic testing for influenza could reduce the need for patient contact with healthcare services, which potentially could contribute to symptomatic improvement and reduced spread of influenza. We aim to determine the accuracy of an app-guided nasal self-swab combined with a lateral flow immunoassay for influenza conducted by individuals with influenza-like illness (ILI).
 ---
