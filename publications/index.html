@@ -102,7 +102,7 @@ redirect_from:
           <div class="modal-body">
             {% assign sorted_articles = pub.press | sort: 'name' %}
             {% for article in sorted_articles %}
-              <u><a href="{{article.url}}">{{ article.name }}</a></u> ({{ article.date  | date: '%B %d, %Y'}}): {{ article.headline }}<br/>
+              <u><a href="{{article.url}}">{{ article.name }}</a></u> ({{ article.date  | date: '%b %-d, %Y'}}): {{ article.headline }}<br/>
             {% endfor %}
           </div>
           <div class="modal-footer">
