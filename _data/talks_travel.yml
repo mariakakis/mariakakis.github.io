@@ -1,3 +1,27 @@
+- city: Victoria, BC
+  lat: 48.463312
+  lng: -123.312166
+  reason: University of Victoria
+  year: 2025
+
+- city: Vancouver, BC
+  lat: 49.260017
+  lng: -123.247285
+  reason: University of British Columbia
+  year: 2025
+
+- city: Burnaby, BC
+  lat: 49.279703
+  lng: -122.920008
+  reason: Simon Fraser University
+  year: 2025
+
+- city: Kelowna, BC
+  lat: 49.939517
+  lng: -119.394849
+  reason: University of British Columbia – Okanagan
+  year: 2025
+
 - city: Amherst, MA
   lat: 42.340382
   lng: -72.496819
