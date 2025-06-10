@@ -17,6 +17,8 @@ layout: default
     </ul>
   </div>
   <div class="col-md-6 news">
+    <h2>Contact Info</h2>
+    <p><b>Email:</b> {{ site.email }}</p>
     <p>
       For the most up-to-date information about my ongoing research, please go to my research group's <a href="https://chai-toronto.github.io/" target="_blank">webpage</a>.
     </p>
@@ -24,9 +26,6 @@ layout: default
     {% include news_list.html num_items=5 %}
     <a href="{{site.base_url}}/news/">(More news...)</a>
     <br/><br/>
-
-    <h2>Contact Info</h2>
-    <b>Email:</b> {{ site.email }}
   </div>
 </div>
 <div class="row">
