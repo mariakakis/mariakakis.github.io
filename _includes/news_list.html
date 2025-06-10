@@ -11,7 +11,7 @@
 <ul>
 {% for news in sorted_news limit:num_items %}
   <li>
-    {{ news.date | date: '%B %d, %Y' }}:
+    {{ news.date | date: '%b %-d, %Y' }}:
     {% if news.url == nil %}
     {{ news.blurb }}
     {% else %}
