@@ -5,8 +5,15 @@ layout: default
 {% assign sorted_news = site.data.news | sort: 'date' | reverse %}
 
 <div class="row">
+  <div class="col-xs-12">
+    <h1>Alex Mariakakis</h1>
+    <p>
+      I primarily use this website to provide my bio and CV, as well as some archival information about my PhD research. For the most up-to-date information about my ongoing work and potential opportunities at the University of Toronto, please go to my research group's <a href="https://chai.cs.toronto.edu/" target="_blank">webpage</a>.
+    </p>
+  </div>
+</div>
+<div class="row">
   <div class="col-md-6">
-    <h1 style="position:relative;margin-top:-5px">Alex Mariakakis</h1>
     <ul class="bxslider">
       <!-- note: imgs can have links around them -->
       <!-- <li><img src="{{site.base_url}}/images/slider/sage.jpg" title=""/></li> -->
@@ -19,9 +26,6 @@ layout: default
   <div class="col-md-6 news">
     <h2>Contact Info</h2>
     <p><b>Email:</b> {{ site.email }}</p>
-    <p>
-      For the most up-to-date information about my ongoing research, please go to my research group's <a href="https://chai-toronto.github.io/" target="_blank">webpage</a>.
-    </p>
     <h2>News</h2>
     {% include news_list.html num_items=5 %}
     <a href="{{site.base_url}}/news/">(More news...)</a>
