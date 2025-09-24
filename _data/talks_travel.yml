@@ -1,3 +1,27 @@
+- city: San Diego, CA
+  lat: 32.880040
+  lng: -117.232242
+  reason: University of California San Diego 
+  year: 2025
+
+- city: Ann Arbor, MI
+  lat: 42.293145
+  lng: -83.716526
+  reason: University of Michigan
+  year: 2025
+
+- city: New York City, NY
+  lat: 40.756037
+  lng: -73.956273
+  reason: Cornell Tech
+  year: 2025
+
+- city: New York City, NY
+  lat: 40.841796
+  lng: -73.940343
+  reason: Columbia University
+  year: 2025
+
 - city: Pittsburgh, PA
   lat: 40.443872
   lng: -79.945909
