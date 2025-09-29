@@ -1,10 +1,12 @@
+# IPaT: GVU Lunch Lecture Series
+
 # - date: 2025-10-01
 #   blurb: Delivered a talk for the University of California San Diego's Design Lab Research Meeting
 #   url: https://designlab.ucsd.edu/about/index.html
 
-# - date: 2025-09-26
-#   blurb: Delivered a talk for the University of Michigan's Human Computer Interaction Seminar
-#   url: https://cse.engin.umich.edu/event/embracing-ubiquitous-technology-to-complement-scale-and-extend-traditional-healthcare
+- date: 2025-09-26
+  blurb: Delivered a talk for the University of Michigan's Human Computer Interaction Seminar
+  url: https://cse.engin.umich.edu/event/embracing-ubiquitous-technology-to-complement-scale-and-extend-traditional-healthcare
 
 - date: 2025-09-23
   blurb: Delivered a guest lecture for Dr. Rajalakshmi Nandkumar's course at Cornell Tech
