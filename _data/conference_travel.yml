@@ -1,6 +1,12 @@
+- city: Waterloo, Canada
+  lat: 43.464951
+  lng: -80.523911
+  reason: GI 2026
+  year: 2026
+
 - city: Yokohama, Japan
-  lat: 35.46024076017195
-  lng: 139.63520908151403
+  lat: 35.460241
+  lng: 139.635209
   reason: CHI 2025
   year: 2025
 
