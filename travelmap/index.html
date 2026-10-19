@@ -25,7 +25,7 @@ markers:
 </div>
 <script type="text/javascript" src="map_helpers.js"></script>
 <script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoiYmxhY2tiZWx0ODEyIiwiYSI6ImNqaWF1dDBzbTFiYnozcXBhN2x1OTFxN2UifQ.FAd9dkTjTuoKuK0mQTnUiA';
+  mapboxgl.accessToken = '{{ site.mapbox_token }}';
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v9',
@@ -33,31 +33,41 @@ markers:
     minZoom: 1
   });
 
-  // Get the layer data split up by category
-  var layers = {};
-  var layerColors = {};
+  // Marker categories and trip data passed from Jekyll
+  var categoriesData = [
   {% for category in page.markers %}
-    // Add the trips
-    layers["{{ category.key }}"] = [];
-    {% for trip in site.data[category.data] %}
-      layers = addMapPoint(layers, 
-        "{{ trip.city }}", 
-        "{{ trip.lat }}", "{{ trip.lng }}", 
-        "{{ trip.reason }}", "{{ trip.year }}", 
-        "{{ category.key }}");
-    {% endfor %}
-
-    // Save the layer color
-    layerColors["{{ category.key }}"] = "{{ category.color }}";
+    {
+      key: "{{ category.key }}",
+      color: "{{ category.color }}",
+      trips: [
+      {% for trip in site.data[category.data] %}
+        {
+          city: {{ trip.city | jsonify }},
+          lat: {{ trip.lat | jsonify }},
+          lng: {{ trip.lng | jsonify }},
+          reason: {{ trip.reason | jsonify }},
+          year: {{ trip.year | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
   {% endfor %}
+  ];
 
-  map.on('load', function() {
-    for (key in layers) {
-      var color = layerColors[key];
+  map.on('load', async function() {
+    // Populate trip layers, geocoding any locations that lack coordinates
+    var layers = await populateTripLayers(categoriesData, mapboxgl.accessToken);
 
-      // Add data to map
-      var geojson = {"type": "FeatureCollection",
-                     "features": layers[key]};
+    categoriesData.forEach(function(category) {
+      var key = category.key;
+      var color = category.color;
+      var features = layers[key] || [];
+
+      // Add data source to map
+      var geojson = {
+        "type": "FeatureCollection",
+        "features": features
+      };
       map.addSource(key, {
         "type": "geojson",
         "data": geojson
@@ -75,7 +85,7 @@ markers:
       item.appendChild(legendkey);
       item.appendChild(legendvalue);
       legend.appendChild(item);
-    }
-  })
+    });
+  });
   
 </script>

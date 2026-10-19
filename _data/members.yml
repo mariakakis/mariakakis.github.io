@@ -1,46 +1,37 @@
 - id: mariakakis
   name: Alex Mariakakis
-  email: mariakakis@cs.toronto.edu
   website: http://mariakakis.github.io
 
 # Faculty
 - id: patel
   name: Shwetak Patel
-  email: shwetak@cs.washington.edu
   website: https://homes.cs.washington.edu/~shwetak/
 
 - id: wobbrock
   name: Jacob O. Wobbrock
-  email: wobbrock@uw.edu
   website: http://faculty.washington.edu/wobbrock/
 
 # Grad Students
 - id: li
   name: Hanchuan Li
-  email: hanchuan@cs.washington.edu
   website: https://www.hanchuanli.com/
 
 - id: wang
   name: Edward Wang
-  email: ejaywang@uw.edu
   website: http://www.ejaywang.com
 
 - id: whitmire
   name: Eric Whitmire
-  email: emwhit@cs.washington.edu
   website: http://www.ericwhitmire.com
 
 - id: goel
   name: Mayank Goel
-  email: mayankgoel@cmu.edu
   website: http://www.mayankgoel.com
 
 - id: cjpark
   name: Chunjong Park
-  email: cjparkuw@cs.washington.edu
   website: http://cjpark.xyz/
 
 - id: xinliu
   name: Xin Liu
-  email: xliu0@cs.washington.edu
   website: https://homes.cs.washington.edu/~xliu0/

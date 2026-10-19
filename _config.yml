@@ -18,6 +18,9 @@ email: mariakakis at cs dot toronto dot edu
 # Google Analytics
 google_analytics: UA-105342327-1
 
+# Mapbox
+mapbox_token: pk.eyJ1IjoiYmxhY2tiZWx0ODEyIiwiYSI6ImNqaWF1dDBzbTFiYnozcXBhN2x1OTFxN2UifQ.FAd9dkTjTuoKuK0mQTnUiA
+
 collections:
   publications:
   teaching:

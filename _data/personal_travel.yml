@@ -1,292 +1,180 @@
 - city: Tokyo, Japan
-  lat: 35.715221
-  lng: 139.794211
   year: 2025
 
 - city: Ho Chi Minh City, Vietnam
-  lat: 10.781319
-  lng: 106.695503
   year: 2024
 
 - city: Hoi An, Vietnam
-  lat: 15.876521
-  lng: 108.321722
   year: 2024
 
 - city: Hanoi, Vietnam
-  lat: 21.031903
-  lng: 105.846342
   year: 2024
 
 - city: New Orleans, LA
-  lat: 29.951065
-  lng: -90.071533
   year: 2024
 
 - city: Yucatan, Mexico
-  lat: 20.684284
-  lng: -88.567780
   year: 2023
 
 - city: Asheville, NC
-  lat: 35.595058
-  lng: -82.551491
   year: 2022
 
 - city: Shelton, WA
-  lat: 47.213329
-  lng: -123.106079
   year: 2019
 
 - city: Nashville, TN
-  lat: 36.174465
-  lng: -86.767960
   year: 2019
 
 - city: Bethesda, MD
-  lat: 38.984653
-  lng: -77.094711
   year: 2019
 
 - city: Philadelphia, PA
-  lat: 39.952583
-  lng: -75.165222
   year: 2019
 
 - city: Port Townsend, WA
-  lat: 48.115280
-  lng: -122.754450
   year: 2019
 
 - city: Rialto Beach, WA
-  lat: 47.921192
-  lng: -124.638275
   year: 2019
 
 - city: Port Angeles, WA
-  lat: 48.118145
-  lng: -123.430740
   year: 2019
 
 - city: Koloa, HI
-  lat: 21.8744383
-  lng: -159.4454959
   year: 2018
 
 - city: Quinault, WA
-  lat: 47.464149
-  lng: -123.852371
   year: 2018
 
 - city: Puyallup, WA
-  lat: 47.177440
-  lng: -122.292320
   reason: WA State Fair
   year: 2018
 
 - city: Bremerton, WA
-  lat: 47.567371
-  lng: -122.632927
   year: 2018
 
 - city: Ahmedabad, India
-  lat: 23.022505
-  lng: 72.571362
   reason: Friend's wedding
   year: 2017
 
 - city: San Diego, CA
-  lat: 32.715738
-  lng: -117.161084
   year: 2017
 
 - city: Las Vegas, NV
-  lat: 36.169941
-  lng: -115.139830
   year: 2017
 
 - city: Wilmington, NC
-  lat: 34.225726
-  lng: -77.944710
+  year: 2016
+
+- city: Frankfurt, Germany
   year: 2016
 
 - city: Raleigh, NC
-  lat: 35.779590
-  lng: -78.638179
   year: 2015
 
 - city: Vancouver, Canada
-  lat: 49.282729
-  lng: -123.120738
   year: 2014
 
 - city: Whistler, Canada
-  lat: 50.116320
-  lng: -122.957356
   year: 2014
 
 # Undergrad trips
 - city: Boston, MA
-  lat: 42.360082
-  lng: -71.058880
   year: 2013
 
 - city: Providence, RI
-  lat: 41.823989
-  lng: -71.412834
   year: 2013
 
 - city: Washington, DC
-  lat: 38.907192
-  lng: -77.036871
   year: 2013
 
 - city: Atlanta, GA
-  lat: 33.748995
-  lng: -84.387982
   year: 2013
 
 - city: Ann Arbor, MI
-  lat: 42.280826
-  lng: -83.743038
   year: 2013
 
 - city: Urbana-Champaign, IL
-  lat: 40.110588
-  lng: -88.207270
   year: 2013
 
+- city: London, UK
+  year: 2012
+  
 - city: Baltimore, MD
-  lat: 39.290385
-  lng: -76.612189
   year: 2012
 
 - city: Greensboro, NC
-  lat: 36.072635
-  lng: -79.791975
   year: 2012
 
 - city: New York City, NY
-  lat: 40.712775
-  lng: -74.005973
   year: 2011
 
 - city: Atlantic City, NJ
-  lat: 39.364283
-  lng: -74.422927
   year: 2010
 
 # High school trips
 - city: Houston, TX
-  lat: 29.760427
-  lng: -95.369803
   year: 2009
 
 - city: Blacksburg, VA
-  lat: 37.229573
-  lng: -80.413939
   year: 2008
 
 - city: Charlottesville, VA
-  lat: 38.029306
-  lng: -78.476678
   year: 2008
 
 - city: Beijing, China
-  lat: 39.904200
-  lng: 116.407396
   year: 2008
 
 - city: Xi'an, China
-  lat: 34.341574
-  lng: 108.939770
   year: 2008
 
 - city: Hamilton, Bermuda
-  lat: 32.294584
-  lng: -64.785889
   year: 2012
 
 - city: Springfield, MA
-  lat: 42.101483
-  lng: -72.589811
   year: 2009
 
 - city: Myrtle Beach, SC
-  lat: 33.689060
-  lng: -78.886694
   year: 2008
 
 - city: Athens, Greece
-  lat: 37.983810
-  lng: 23.727539
   year: 2007
 
 - city: Mykonos, Greece
-  lat: 37.446735
-  lng: 25.328884
   year: 2007
 
 - city: Santorini, Greece
-  lat: 36.393156
-  lng: 25.461509
   year: 2007
 
 - city: Chania, Crete
-  lat: 35.513830
-  lng: 24.018037
   year: 2007
 
 # Middle school trips
 - city: Paris, France
-  lat: 48.856614
-  lng: 2.352222
   year: 2003
 
 - city: Saint Malo, France
-  lat: 48.648201
-  lng: -2.026300
   year: 2003
 
 - city: Mont Saint-Michel, France
-  lat: 48.636063
-  lng: -1.511457
   year: 2003
 
 - city: Normandy, France
-  lat: 48.879870
-  lng: 0.171253
   year: 2003
 
 - city: Alexandria, VA
-  lat: 38.804836
-  lng: -77.046921
 
 - city: Nags Head, NC
-  lat: 35.957392
-  lng: -75.624062
 
 - city: Williamsburg, VA
-  lat: 37.270702
-  lng: -76.707457
 
 # Karate tournaments
 - city: Jacksonville, NC
-  lat: 34.754052
-  lng: -77.430241
 
 - city: Bassett, VA
-  lat: 36.759304
-  lng: -79.990319
 
 - city: Danville, VA
-  lat: 36.585972
-  lng: -79.395023
 
 - city: Petersburg, VA
-  lat: 37.227928
-  lng: -77.401927
 
 - city: Knightdale, NC
-  lat: 35.787652
-  lng: -78.480556
