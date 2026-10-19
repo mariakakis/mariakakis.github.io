@@ -18,12 +18,11 @@ function saveGeocodeCache(cache) {
 	}
 }
 
-async function geocodeLocation(city, accessToken) {
+async function geocodeLocation(city, accessToken, cache) {
 	if (!city || !city.trim()) return null;
 	var normalizedCity = city.trim();
 
-	var cache = getGeocodeCache();
-	if (cache[normalizedCity] && Array.isArray(cache[normalizedCity]) && cache[normalizedCity].length === 2) {
+	if (cache && cache[normalizedCity] && Array.isArray(cache[normalizedCity]) && cache[normalizedCity].length === 2) {
 		return cache[normalizedCity]; // [lng, lat]
 	}
 
@@ -38,8 +37,9 @@ async function geocodeLocation(city, accessToken) {
 		var data = await response.json();
 		if (data.features && data.features.length > 0) {
 			var coords = data.features[0].center; // [lng, lat]
-			cache[normalizedCity] = coords;
-			saveGeocodeCache(cache);
+			if (cache) {
+				cache[normalizedCity] = coords;
+			}
 			return coords;
 		}
 	} catch (err) {
@@ -49,17 +49,20 @@ async function geocodeLocation(city, accessToken) {
 }
 
 function createFeature(city, lng, lat, reason, year) {
+	var props = {
+		"city": city,
+		"year": year
+	};
+	if (reason !== null && reason !== undefined && reason !== "null" && reason !== "") {
+		props.reason = reason;
+	}
 	return {
 		"type": "Feature",
 		"geometry": {
 			"type": "Point",
 			"coordinates": [lng, lat]
 		},
-		"properties": {
-			"city": city,
-			"reason": reason,
-			"year": year
-		}
+		"properties": props
 	};
 }
 
@@ -94,12 +97,10 @@ async function populateTripLayers(categories, accessToken) {
 	for (var i = 0; i < citiesArr.length; i += BATCH_SIZE) {
 		var batch = citiesArr.slice(i, i + BATCH_SIZE);
 		await Promise.all(batch.map(function(city) {
-			return geocodeLocation(city, accessToken);
+			return geocodeLocation(city, accessToken, cache);
 		}));
+		saveGeocodeCache(cache);
 	}
-
-	// Refresh cache reference after batch fetching
-	cache = getGeocodeCache();
 
 	// Second pass: construct GeoJSON features for each category
 	for (var i = 0; i < categories.length; i++) {
@@ -155,7 +156,7 @@ function tooltip(elem, category) {
 	// Add useful information to the popup
 	var pointProperties = elem.features[0].properties;
 	var description = '<b>City:</b> ' + pointProperties.city;
-	if (pointProperties.reason) {
+	if (pointProperties.reason && pointProperties.reason !== "null" && pointProperties.reason !== "undefined") {
 		description += '<br />' + pointProperties.reason;
 	}
 	return {'coordinates': coordinates, 
