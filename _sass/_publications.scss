@@ -19,7 +19,18 @@ code {
 }
 
 .publication-badge {
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  padding: 18px;
+  background: #ffffff;
+  border: 1px solid $borderGray;
+  border-radius: 8px;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    border-color: #cbd5e1;
+  }
+
   .glyphicon-file {
     color: #980000;
   }
@@ -31,43 +42,52 @@ code {
       display: block;
       position: relative;
       padding-bottom: 56.25%;
-      //border-radius: 10px;
+      border-radius: 6px;
       overflow: hidden;
-      @media (min-width: 768px){
-      }
+      background: $lightGray;
       img {
-
         width: 100%;
         vertical-align: middle;
         position: absolute;
         top: 0px;
         left: 0px;
-        @media (min-width: 768px){
-          //max-width: 150px;
-        }
+        border-radius: 6px;
       }
     }
   }
   .authors a {
     color: $darkGray;
     text-decoration: underline;
+    &:hover {
+      color: $blue;
+    }
   }
   h2 {
     margin-top: 0px;
-    margin-bottom: 2px;
-    font-size: 15px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    line-height: 1.4;
     font-family: $avenirHeavy;
+    font-weight: 600;
+
+    u {
+      text-decoration: none;
+    }
   }
-  
+
+  a:hover h2 {
+    color: $blue;
+  }
+
   .btn {
-    //width: 70px;
-    //margin-top: 5px;
-    //text-align:left;
+    margin-top: 6px;
+    margin-right: 4px;
   }
   
   .award {
-    color: #c70000;
+    color: #b91c1c;
     font-family: $avenirHeavy;
+    font-weight: 600;
   }
 }
 
