@@ -6,6 +6,7 @@
 # - Leaves existing entries untouched, so hand-corrected coordinates stick
 #
 # Usage: ruby _scripts/update_travel_coordinates.rb
+# Runs automatically from .githooks/pre-commit when a travel file is committed.
 
 require 'json'
 require 'yaml'

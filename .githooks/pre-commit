@@ -1,0 +1,15 @@
+#!/bin/sh
+# When a travel data file is part of the commit, refresh the map coordinates
+# and include them in the same commit.
+# Install once per clone with: git config core.hooksPath .githooks
+
+if git diff --cached --name-only | grep -q '^_data/.*_travel\.yml$'; then
+  echo "Updating travel coordinates..."
+  if ! ruby _scripts/update_travel_coordinates.rb; then
+    echo ""
+    echo "Commit stopped: travel coordinates could not be updated (see above)."
+    echo "Fix the city name, add lat/lng to its entry, or commit anyway with: git commit --no-verify"
+    exit 1
+  fi
+  git add _data/travel_coordinates.json
+fi
