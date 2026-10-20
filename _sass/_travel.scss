@@ -1,0 +1,211 @@
+// Travel map page
+
+.travel-header {
+  margin-bottom: 20px;
+
+  p {
+    color: $gray;
+    font-size: 17px;
+  }
+}
+
+.travel-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.travel-stat {
+  display: flex;
+  flex-direction: column;
+  padding: 14px 18px;
+  border: 1px solid $borderGray;
+  border-radius: 10px;
+  background-color: $lightGray;
+}
+
+.travel-stat-value {
+  color: $black;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.travel-stat-label {
+  color: $gray;
+  font-size: 13px;
+}
+
+.travel-map-card {
+  position: relative;
+  height: 640px;
+  max-height: 80vh;
+  min-height: 460px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #080a14;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.25);
+
+  #map {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.travel-legend {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  z-index: 2;
+
+  @media (max-width: $screen-xs-max) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    right: 56px;
+  }
+}
+
+.legend-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(15, 18, 32, 0.75);
+  backdrop-filter: blur(6px);
+  color: #e2e8f0;
+  font-size: 13px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  &.off {
+    opacity: 0.4;
+  }
+}
+
+.legend-key {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.legend-count {
+  color: #94a3b8;
+  font-variant-numeric: tabular-nums;
+}
+
+.travel-timeline {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: min(520px, calc(100% - 28px));
+  padding: 8px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  background: rgba(15, 18, 32, 0.75);
+  backdrop-filter: blur(6px);
+  color: #e2e8f0;
+  font-size: 13px;
+  z-index: 2;
+
+  button {
+    flex: none;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 50%;
+    background: $blue;
+    color: #fff;
+    font-size: 11px;
+    line-height: 28px;
+    padding: 0;
+  }
+
+  input[type="range"] {
+    flex: 1;
+    min-width: 0;
+    accent-color: $blue;
+  }
+
+  #year-label {
+    flex: none;
+    min-width: 76px;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.travel-popup {
+  .mapboxgl-popup-content {
+    padding: 10px 14px;
+    border-radius: 8px;
+    background: rgba(15, 18, 32, 0.92);
+    color: #e2e8f0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    font-family: $sans;
+  }
+
+  .mapboxgl-popup-tip {
+    display: none;
+  }
+
+  .popup-category {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .popup-city {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .popup-reason {
+    font-size: 13px;
+  }
+
+  .popup-year {
+    font-size: 12px;
+    color: #94a3b8;
+  }
+}
+
+// Sits under the zoom buttons and matches their style
+.spin-btn {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  z-index: 2;
+  width: 29px;
+  height: 29px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 12px;
+  line-height: 29px;
+
+  &:hover {
+    background: #f2f2f2;
+  }
+}

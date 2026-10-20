@@ -1,37 +1,60 @@
 ---
 layout: page
-title: 
+title:
+extra_header: >-
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.js"></script>
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.css" />
 markers:
 - key: "Home"
   data: "life_travel"
-  color: "green"
+  color: "#34d399"
 - key: "Conference"
   data: "conference_travel"
-  color: "red"
+  color: "#f87171"
 - key: "Invited Talks"
   data: "talks_travel"
-  color: "purple"
+  color: "#c084fc"
 - key: "Internship"
   data: "internship_travel"
-  color: "blue"
+  color: "#60a5fa"
 - key: "Personal travel"
   data: "personal_travel"
-  color: "yellow"
+  color: "#fbbf24"
 ---
-<div class="col-xs-12">
-  <div id="map" style="display: block; width: 100%; height: 600px; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08); border: 1px solid #e2e8f0;">
-    <div class='map-overlay' id='legend' style="height: 130px"></div>  
+<div class="travel-header">
+  <h1>Travel</h1>
+  <p>Where I've lived, worked, presented, and explored.</p>
+</div>
+
+<div class="travel-stats">
+  <div class="travel-stat"><span class="travel-stat-value" id="stat-cities">–</span><span class="travel-stat-label">cities</span></div>
+  <div class="travel-stat"><span class="travel-stat-value" id="stat-countries">–</span><span class="travel-stat-label">countries</span></div>
+  <div class="travel-stat"><span class="travel-stat-value" id="stat-talks">–</span><span class="travel-stat-label">conferences &amp; talks</span></div>
+</div>
+
+<div class="travel-map-card">
+  <div id="map"></div>
+  <div class="travel-legend" id="legend"></div>
+  <button type="button" class="spin-btn" id="spin-btn" aria-label="Pause globe rotation" title="Pause globe rotation">&#10073;&#10073;</button>
+  <div class="travel-timeline">
+    <button type="button" id="play-btn" aria-label="Play timeline">&#9654;</button>
+    <input type="range" id="year-slider" aria-label="Show trips through year" />
+    <span id="year-label"></span>
   </div>
 </div>
+
 <script type="text/javascript" src="map_helpers.js"></script>
 <script>
   mapboxgl.accessToken = '{{ site.mapbox_token }}';
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v9',
-    zoom: 1,
-    minZoom: 1
+    style: 'mapbox://styles/mapbox/dark-v11',
+    projection: 'globe',
+    center: [-40, 30],
+    zoom: window.innerWidth < 768 ? 0.8 : 1.6,
+    minZoom: 0.6
   });
+  map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right');
 
   // Marker categories and trip data passed from Jekyll
   var categoriesData = [
@@ -54,38 +77,144 @@ markers:
   {% endfor %}
   ];
 
-  map.on('load', async function() {
-    // Populate trip layers, geocoding any locations that lack coordinates
-    var layers = await populateTripLayers(categoriesData, mapboxgl.accessToken);
+  // Slowly spin the globe until the visitor interacts with it; the spin button restarts it
+  var initialZoom = map.getZoom();
+  var spinning = true;
+  var spinBtn = document.getElementById('spin-btn');
+  function spinGlobe() {
+    if (!spinning || map.getZoom() > 3) return;
+    var center = map.getCenter();
+    center.lng -= 6;
+    map.easeTo({ center: center, duration: 1000, easing: function(n) { return n; } });
+  }
+  function setSpinning(on) {
+    spinning = on;
+    var label = on ? 'Pause globe rotation' : 'Spin the globe';
+    spinBtn.innerHTML = on ? '&#10073;&#10073;' : '&#8635;';
+    spinBtn.setAttribute('aria-label', label);
+    spinBtn.title = label;
+  }
+  spinBtn.addEventListener('click', function() {
+    if (spinning) {
+      setSpinning(false);
+      map.stop();
+      return;
+    }
+    setSpinning(true);
+    // Zoom back out to the full globe if needed; moveend then keeps it spinning
+    if (map.getZoom() > 3) map.easeTo({ zoom: initialZoom, duration: 1200 });
+    else spinGlobe();
+  });
+  ['mousedown', 'touchstart', 'wheel', 'dragstart'].forEach(function(evt) {
+    map.on(evt, function() { if (spinning) setSpinning(false); });
+  });
+  map.on('moveend', spinGlobe);
 
-    categoriesData.forEach(function(category) {
-      var key = category.key;
-      var color = category.color;
-      var features = layers[key] || [];
-
-      // Add data source to map
-      var geojson = {
-        "type": "FeatureCollection",
-        "features": features
-      };
-      map.addSource(key, {
-        "type": "geojson",
-        "data": geojson
-      });
-      addPoints(map, color, key);
-
-      // Add legend info
-      var item = document.createElement('div');
-      var legendkey = document.createElement('span');
-      legendkey.className = 'legend-key';
-      legendkey.style.backgroundColor = color;
-
-      var legendvalue = document.createElement('span');
-      legendvalue.innerHTML = key;
-      item.appendChild(legendkey);
-      item.appendChild(legendvalue);
-      legend.appendChild(item);
+  map.on('style.load', function() {
+    map.setFog({
+      'color': 'rgb(20, 24, 40)',
+      'high-color': 'rgb(36, 92, 223)',
+      'horizon-blend': 0.03,
+      'space-color': 'rgb(8, 10, 20)',
+      'star-intensity': 0.5
     });
   });
-  
+
+  map.once('style.load', async function() {
+    // Populate trip layers, geocoding any locations that lack coordinates
+    var layers = await populateTripLayers(categoriesData, mapboxgl.accessToken, {{ site.data.travel_coordinates | jsonify }});
+
+    var cities = {}, countries = {}, years = [];
+    categoriesData.forEach(function(category) {
+      (layers[category.key] || []).forEach(function(f) {
+        var p = f.properties;
+        cities[p.city] = true;
+        countries[countryFor(p.city)] = true;
+        if (p.year) years.push(p.year);
+      });
+    });
+
+    var visible = {};
+    categoriesData.forEach(function(category) {
+      var key = category.key;
+      visible[key] = true;
+      map.addSource(key, {
+        type: 'geojson',
+        data: { type: 'FeatureCollection', features: layers[key] || [] }
+      });
+      addPoints(map, category.color, key);
+
+      // Legend chips double as category toggles
+      var chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'legend-chip';
+      chip.innerHTML = '<span class="legend-key" style="background:' + category.color + ';box-shadow:0 0 8px ' + category.color + '"></span>' +
+        escapeHtml(key) + ' <span class="legend-count">' + (layers[key] || []).length + '</span>';
+      chip.addEventListener('click', function() {
+        visible[key] = !visible[key];
+        chip.classList.toggle('off', !visible[key]);
+        applyFilters();
+      });
+      document.getElementById('legend').appendChild(chip);
+    });
+
+    // Stats
+    function countUp(id, target) {
+      var el = document.getElementById(id), start = performance.now();
+      (function step(now) {
+        var t = Math.min(1, (now - start) / 1200), eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = Math.round(target * eased).toLocaleString();
+        if (t < 1) requestAnimationFrame(step);
+      })(start);
+    }
+    countUp('stat-cities', Object.keys(cities).length);
+    countUp('stat-countries', Object.keys(countries).length);
+    countUp('stat-talks', (layers['Conference'] || []).length + (layers['Invited Talks'] || []).length);
+
+    // Timeline: show everything up to the selected year
+    var slider = document.getElementById('year-slider');
+    var label = document.getElementById('year-label');
+    var minYear = Math.min.apply(null, years), maxYear = Math.max.apply(null, years);
+    slider.min = minYear;
+    slider.max = maxYear;
+    slider.value = maxYear;
+
+    function applyFilters() {
+      var year = parseInt(slider.value, 10);
+      label.textContent = year === maxYear ? 'All years' : minYear + '–' + year;
+      var byYear = ['<=', ['get', 'year'], year];
+      categoriesData.forEach(function(category) {
+        var vis = visible[category.key] ? 'visible' : 'none';
+        [category.key + '-points', category.key + '-glow'].forEach(function(id) {
+          map.setFilter(id, byYear);
+          map.setLayoutProperty(id, 'visibility', vis);
+        });
+      });
+    }
+    slider.addEventListener('input', function() { stopPlaying(); applyFilters(); });
+    applyFilters();
+
+    var playBtn = document.getElementById('play-btn'), timer = null;
+    function stopPlaying() {
+      clearInterval(timer);
+      timer = null;
+      playBtn.innerHTML = '&#9654;';
+      playBtn.setAttribute('aria-label', 'Play timeline');
+    }
+    playBtn.addEventListener('click', function() {
+      if (timer) return stopPlaying();
+      // Skip the empty years before travel really starts
+      slider.value = Math.max(minYear, Math.min.apply(null, years.filter(function(y) { return y > minYear; })) - 1);
+      applyFilters();
+      playBtn.innerHTML = '&#10073;&#10073;';
+      playBtn.setAttribute('aria-label', 'Pause timeline');
+      timer = setInterval(function() {
+        if (parseInt(slider.value, 10) >= maxYear) return stopPlaying();
+        slider.value = parseInt(slider.value, 10) + 1;
+        applyFilters();
+      }, 600);
+    });
+
+    spinGlobe();
+  });
 </script>

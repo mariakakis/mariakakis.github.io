@@ -51,7 +51,7 @@ async function geocodeLocation(city, accessToken, cache) {
 function createFeature(city, lng, lat, reason, year) {
 	var props = {
 		"city": city,
-		"year": year
+		"year": parseInt(year, 10) || 0
 	};
 	if (reason !== null && reason !== undefined && reason !== "null" && reason !== "") {
 		props.reason = reason;
@@ -67,10 +67,11 @@ function createFeature(city, lng, lat, reason, year) {
 }
 
 // Process all trip categories: uses provided lat/lng if available; otherwise geocodes client-side
-async function populateTripLayers(categories, accessToken) {
+// knownCoords (from _data/travel_coordinates.json) takes priority over the browser cache
+async function populateTripLayers(categories, accessToken, knownCoords) {
 	var layers = {};
 	var uniqueCitiesToFetch = new Set();
-	var cache = getGeocodeCache();
+	var cache = Object.assign(getGeocodeCache(), knownCoords || {});
 
 	// First pass: identify missing coordinates and use cache where possible
 	for (var i = 0; i < categories.length; i++) {
@@ -127,46 +128,79 @@ async function populateTripLayers(categories, accessToken) {
 	return layers;
 }
 
+// Derive a country name from "City, Region" strings in the data files
+var CANADIAN_PROVINCES = ['ON', 'BC', 'QC', 'AB', 'MB', 'NS', 'NB', 'SK', 'PE', 'NL'];
+var REGION_ALIASES = { 'Crete': 'Greece', 'UK': 'United Kingdom' };
+function countryFor(city) {
+	var parts = city.split(',');
+	var region = parts[parts.length - 1].trim();
+	if (REGION_ALIASES[region]) return REGION_ALIASES[region];
+	if (CANADIAN_PROVINCES.indexOf(region) !== -1) return 'Canada';
+	if (/^[A-Z]{2}$/.test(region)) return 'United States';
+	return region;
+}
+
+function escapeHtml(str) {
+	return String(str).replace(/[&<>"']/g, function(c) {
+		return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+	});
+}
+
 function addPoints(map, color, category) {
-	var layerName = category + "-points";
 	map.addLayer({
-		"id": layerName,
+		"id": category + "-glow",
 		"type": "circle",
 		"source": category,
 		"paint": {
 			"circle-color": color,
-			"circle-stroke-color": "black",
-			"circle-stroke-width": 1
+			"circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 7, 6, 16],
+			"circle-blur": 1,
+			"circle-opacity": 0.55
+		}
+	});
+	map.addLayer({
+		"id": category + "-points",
+		"type": "circle",
+		"source": category,
+		"paint": {
+			"circle-color": color,
+			"circle-radius": ["interpolate", ["linear"], ["zoom"], 1, 3, 6, 7],
+			"circle-stroke-color": "#ffffff",
+			"circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 1, 0.6, 6, 1.5]
 		}
 	});
 
-	map.on('click', layerName, function(e) {
-		var results = tooltip(e, category);
-		new mapboxgl.Popup().setLngLat(results['coordinates']).
-		setHTML(results['description']).addTo(map);
+	var popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false, className: 'travel-popup', offset: 10 });
+	map.on('mouseenter', category + "-points", function(e) {
+		map.getCanvas().style.cursor = 'pointer';
+		var results = tooltip(e, category, color);
+		popup.setLngLat(results.coordinates).setHTML(results.description).addTo(map);
+	});
+	map.on('mouseleave', category + "-points", function() {
+		map.getCanvas().style.cursor = '';
+		popup.remove();
+	});
+	map.on('click', category + "-points", function(e) {
+		var results = tooltip(e, category, color);
+		new mapboxgl.Popup({ className: 'travel-popup', offset: 10 })
+			.setLngLat(results.coordinates).setHTML(results.description).addTo(map);
 	});
 }
 
-function tooltip(elem, category) {
+function tooltip(elem, category, color) {
 	// Position the popup nicely
 	var coordinates = elem.features[0].geometry.coordinates.slice();
 	while (Math.abs(elem.lngLat.lng - coordinates[0]) > 180)
 		coordinates[0] += elem.lngLat.lng > coordinates[0] ? 360 : -360;
 
-	// Add useful information to the popup
-	var pointProperties = elem.features[0].properties;
-	var description = '<b>City:</b> ' + pointProperties.city;
-	if (pointProperties.reason && pointProperties.reason !== "null" && pointProperties.reason !== "undefined") {
-		description += '<br />' + pointProperties.reason;
+	var p = elem.features[0].properties;
+	var description = '<div class="popup-category" style="color:' + color + '">' + escapeHtml(category) + '</div>' +
+		'<div class="popup-city">' + escapeHtml(p.city) + '</div>';
+	if (p.reason && p.reason !== "null" && p.reason !== "undefined") {
+		description += '<div class="popup-reason">' + escapeHtml(p.reason) + '</div>';
 	}
-	return {'coordinates': coordinates, 
-	'description': description};
-}
-
-function addMapPoint(layers, city, lat, lng, reason, year, category) {
-	var lat = parseFloat(lat);
-	var lng = parseFloat(lng);
-	var data = createFeature(city, lng, lat, reason, year);
-	layers[category].push(data);
-	return layers;
+	if (p.year) {
+		description += '<div class="popup-year">' + p.year + '</div>';
+	}
+	return {'coordinates': coordinates, 'description': description};
 }

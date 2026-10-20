@@ -7,6 +7,8 @@ layout: default
 <div class="row">
   <div class="col-xs-12">
     <h1>Alex Mariakakis</h1>
+    <p class="subtitle">Associate Professor, Computer Science, University of Toronto</p>
+    {% include contact_links.html %}
     <p>
       I primarily use this website to provide my bio and CV, as well as some archival information about my PhD research. For the most up-to-date information about my ongoing work and potential opportunities at the University of Toronto, please go to my research group's <a href="https://chai.cs.toronto.edu/" target="_blank">webpage</a>.
     </p>
@@ -24,8 +26,6 @@ layout: default
     </ul>
   </div>
   <div class="col-md-6 news">
-    <h2>Contact Info</h2>
-    <p><b>Email:</b> {{ site.email }}</p>
     <h2>News</h2>
     {% include news_list.html num_items=5 %}
     <a href="{{site.base_url}}/news/">(More news...)</a>

@@ -192,7 +192,7 @@ img {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 20px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -204,36 +204,6 @@ footer {
   img {
     max-height: 50px;
   }
-}
-
-// Map legend
-.map-overlay {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: rgba(255, 255, 255, 0.5);
-  margin-right: 20px;
-  font-family: Arial, sans-serif;
-  overflow: auto;
-  border-radius: 3px;
-  z-index: 2;
-}
-
-#legend {
-  padding: 10px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  line-height: 18px;
-  height: 120px;
-  margin-bottom: 40px;
-  width: 130px;
-}
-
-.legend-key {
-  display: inline-block;
-  border-radius: 20%;
-  width: 10px;
-  height: 10px;
-  margin-right: 5px;
 }
 
 h1:first-child,
@@ -306,7 +276,7 @@ article.page > .entry > *:first-child {
 }
 
 #main {
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 // Clean button styling
@@ -352,8 +322,9 @@ article.page > .entry > *:first-child {
   box-shadow: none !important;
   border: none !important;
   background: transparent !important;
-  margin-bottom: 25px !important;
+  margin-bottom: 60px !important;
 }
 
 @import "publications";
 @import "home";
+@import "travel";
